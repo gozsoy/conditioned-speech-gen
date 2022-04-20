@@ -1,0 +1,20 @@
+https://arxiv.org/pdf/2004.01881.pdf -> cg-bert
+https://arxiv.org/pdf/2106.13884.pdf -> frozen
+https://arxiv.org/pdf/2101.00190.pdf -> prefix-tuning
+https://arxiv.org/pdf/2011.07347.pdf -> conditioned gen 2020
+
+data_dir: /cluster/work/lawecon/Work/cmarangon/fnc-politicians-language/congress-records/data/final/
+
+NLP_LSS PROJECT IDEAS
+++ baseline:
+1- first of all think of how you could do this in lstm + lstm and attention (it should be fairly easy)
+2- adding speaker name in front of each training text
+++ advanced:
+maybe you will train this model end-to-end, and as a side thing you will get speaker embeddings.
+maybe you will put some conditioning model on top of gpt-neo predictions (delete this)
+3- speaker embedding by embedding layer (or using speaker's metadata) elaborate
+4- speaker2vec model ? elaborate
+5- maybe adding a speaker embedding in the tokens which are the input of gpt-neo
+6- cg-bert method
+7- prefix-tuning
+
