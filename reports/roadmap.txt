@@ -7,8 +7,8 @@ data_dir: /cluster/work/lawecon/Work/cmarangon/fnc-politicians-language/congress
 
 NLP_LSS PROJECT IDEAS
 ++ baseline:
-1- first of all think of how you could do this in lstm + lstm and attention (it should be fairly easy)
-2- adding speaker name in front of each training text
+1- conditioned generation with rnn -DONE
+2- speaker name conditioned gpt finetuning
 ++ advanced:
 maybe you will train this model end-to-end, and as a side thing you will get speaker embeddings.
 maybe you will put some conditioning model on top of gpt-neo predictions (delete this)
