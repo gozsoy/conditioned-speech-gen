@@ -1,0 +1,10 @@
+0- try with only single example -> overfit -> generate text out of it (pipeline on notebooks?)
+1- generate some text per epoch -> how to use tensorboard in Euler? (add_text)
+
+2- use larger subset of speakers -> use validation data
+3- wise truncation -> perplexity computation wrong? (not, actually!)
+
+4- reduce GPU memory usage: freezing some parts, reducing max_token_size (promising)
+
+
+

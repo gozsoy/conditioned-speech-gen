@@ -1,0 +1,112 @@
+INFO:root:cfg: {'experiment_name': 'speaker_name_as_prompt_deneme', 'data_path': '/cluster/scratch/goezsoy/nlp_lss_datasets/processed_df.csv', 'log_dir': '../logs', 'checkpoint_dir': '../checkpoints', 'epochs': 100, 'batch_size': 16, 'learning_rate': 0.0001, 'early_stopping': True, 'lr_scheduling': True, 'do_sample': True, 'temperature': 0.9, 'max_length': 200}
+INFO:root:Using device: cuda:0
+INFO:root:train data loaded.
+INFO:root:cfg: {'experiment_name': 'speaker_name_as_prompt_deneme', 'data_path': '/cluster/scratch/goezsoy/nlp_lss_datasets/processed_df.csv', 'log_dir': '../logs', 'checkpoint_dir': '../checkpoints', 'epochs': 100, 'batch_size': 8, 'learning_rate': 0.0001, 'early_stopping': True, 'lr_scheduling': True, 'do_sample': True, 'temperature': 0.9, 'max_length': 200}
+INFO:root:Using device: cuda:0
+INFO:root:train data loaded.
+INFO:root:cfg: {'experiment_name': 'speaker_name_as_prompt_deneme', 'data_path': '/cluster/scratch/goezsoy/nlp_lss_datasets/processed_df.csv', 'log_dir': '../logs', 'checkpoint_dir': '../checkpoints', 'epochs': 100, 'batch_size': 4, 'learning_rate': 0.0001, 'early_stopping': True, 'lr_scheduling': True, 'do_sample': True, 'temperature': 0.9, 'max_length': 200}
+INFO:root:Using device: cuda:0
+INFO:root:train data loaded.
+INFO:root:cfg: {'experiment_name': 'speaker_name_as_prompt_deneme', 'data_path': '/cluster/scratch/goezsoy/nlp_lss_datasets/processed_df.csv', 'log_dir': '../logs', 'checkpoint_dir': '../checkpoints', 'epochs': 100, 'batch_size': 2, 'learning_rate': 0.0001, 'early_stopping': True, 'lr_scheduling': True, 'do_sample': True, 'temperature': 0.9, 'max_length': 200}
+INFO:root:Using device: cuda:0
+INFO:root:train data loaded.
+INFO:root:epoch: 0, train_loss: 2.7830, train_perplexity: 23.3906
+INFO:root:epoch: 1, train_loss: 1.9207, train_perplexity: 7.2377
+INFO:root:epoch: 2, train_loss: 1.5483, train_perplexity: 4.9122
+INFO:root:epoch: 3, train_loss: 1.2429, train_perplexity: 3.5945
+INFO:root:epoch: 4, train_loss: 0.9736, train_perplexity: 2.7296
+INFO:root:epoch: 5, train_loss: 0.7427, train_perplexity: 2.1464
+INFO:root:epoch: 6, train_loss: 0.5406, train_perplexity: 1.7440
+INFO:root:epoch: 7, train_loss: 0.3821, train_perplexity: 1.4814
+INFO:root:epoch: 8, train_loss: 0.2699, train_perplexity: 1.3180
+INFO:root:epoch: 9, train_loss: 0.2215, train_perplexity: 1.2528
+INFO:root:epoch: 10, train_loss: 0.2040, train_perplexity: 1.2298
+INFO:root:epoch: 11, train_loss: 0.2098, train_perplexity: 1.2377
+INFO:root:epoch: 12, train_loss: 0.1786, train_perplexity: 1.1971
+INFO:root:epoch: 13, train_loss: 0.1178, train_perplexity: 1.1256
+INFO:root:epoch: 14, train_loss: 0.0765, train_perplexity: 1.0797
+INFO:root:epoch: 15, train_loss: 0.0547, train_perplexity: 1.0564
+INFO:root:epoch: 16, train_loss: 0.0383, train_perplexity: 1.0392
+INFO:root:epoch: 17, train_loss: 0.0300, train_perplexity: 1.0305
+INFO:root:epoch: 18, train_loss: 0.0239, train_perplexity: 1.0242
+INFO:root:epoch: 19, train_loss: 0.0225, train_perplexity: 1.0228
+INFO:root:epoch: 20, train_loss: 0.0210, train_perplexity: 1.0212
+INFO:root:epoch: 21, train_loss: 0.0215, train_perplexity: 1.0218
+INFO:root:epoch: 22, train_loss: 0.0197, train_perplexity: 1.0199
+INFO:root:epoch: 23, train_loss: 0.0196, train_perplexity: 1.0199
+INFO:root:epoch: 24, train_loss: 0.0179, train_perplexity: 1.0181
+INFO:root:epoch: 25, train_loss: 0.0170, train_perplexity: 1.0172
+INFO:root:epoch: 26, train_loss: 0.0165, train_perplexity: 1.0166
+INFO:root:epoch: 27, train_loss: 0.0160, train_perplexity: 1.0161
+INFO:root:epoch: 28, train_loss: 0.0156, train_perplexity: 1.0158
+INFO:root:epoch: 29, train_loss: 0.0154, train_perplexity: 1.0156
+INFO:root:epoch: 30, train_loss: 0.0149, train_perplexity: 1.0151
+INFO:root:epoch: 31, train_loss: 0.0147, train_perplexity: 1.0148
+INFO:root:epoch: 32, train_loss: 0.0146, train_perplexity: 1.0148
+INFO:root:epoch: 33, train_loss: 0.0143, train_perplexity: 1.0144
+INFO:root:epoch: 34, train_loss: 0.0143, train_perplexity: 1.0145
+INFO:root:epoch: 35, train_loss: 0.0139, train_perplexity: 1.0140
+INFO:root:epoch: 36, train_loss: 0.0139, train_perplexity: 1.0140
+INFO:root:epoch: 37, train_loss: 0.0138, train_perplexity: 1.0139
+INFO:root:epoch: 38, train_loss: 0.0135, train_perplexity: 1.0136
+INFO:root:epoch: 39, train_loss: 0.0136, train_perplexity: 1.0137
+INFO:root:epoch: 40, train_loss: 0.0135, train_perplexity: 1.0136
+INFO:root:epoch: 41, train_loss: 0.0133, train_perplexity: 1.0133
+INFO:root:epoch: 42, train_loss: 0.0131, train_perplexity: 1.0132
+INFO:root:epoch: 43, train_loss: 0.0131, train_perplexity: 1.0131
+INFO:root:epoch: 44, train_loss: 0.0129, train_perplexity: 1.0130
+INFO:root:epoch: 45, train_loss: 0.0131, train_perplexity: 1.0132
+INFO:root:epoch: 46, train_loss: 0.0127, train_perplexity: 1.0127
+INFO:root:epoch: 47, train_loss: 0.0128, train_perplexity: 1.0129
+INFO:root:epoch: 48, train_loss: 0.0126, train_perplexity: 1.0127
+INFO:root:epoch: 49, train_loss: 0.0126, train_perplexity: 1.0127
+INFO:root:epoch: 50, train_loss: 0.0126, train_perplexity: 1.0127
+INFO:root:epoch: 51, train_loss: 0.0126, train_perplexity: 1.0127
+INFO:root:epoch: 52, train_loss: 0.0124, train_perplexity: 1.0124
+INFO:root:epoch: 53, train_loss: 0.0123, train_perplexity: 1.0124
+INFO:root:epoch: 54, train_loss: 0.0122, train_perplexity: 1.0123
+INFO:root:epoch: 55, train_loss: 0.0122, train_perplexity: 1.0123
+INFO:root:epoch: 56, train_loss: 0.0121, train_perplexity: 1.0122
+INFO:root:epoch: 57, train_loss: 0.0121, train_perplexity: 1.0122
+INFO:root:epoch: 58, train_loss: 0.0123, train_perplexity: 1.0124
+INFO:root:epoch: 59, train_loss: 0.0123, train_perplexity: 1.0124
+INFO:root:epoch: 60, train_loss: 0.0121, train_perplexity: 1.0121
+INFO:root:epoch: 61, train_loss: 0.0121, train_perplexity: 1.0122
+INFO:root:epoch: 62, train_loss: 0.0120, train_perplexity: 1.0121
+INFO:root:epoch: 63, train_loss: 0.0121, train_perplexity: 1.0121
+INFO:root:epoch: 64, train_loss: 0.0120, train_perplexity: 1.0121
+INFO:root:epoch: 65, train_loss: 0.0120, train_perplexity: 1.0121
+INFO:root:epoch: 66, train_loss: 0.0119, train_perplexity: 1.0120
+INFO:root:epoch: 67, train_loss: 0.0120, train_perplexity: 1.0120
+INFO:root:epoch: 68, train_loss: 0.0117, train_perplexity: 1.0118
+INFO:root:epoch: 69, train_loss: 0.0118, train_perplexity: 1.0118
+INFO:root:epoch: 70, train_loss: 0.0114, train_perplexity: 1.0115
+INFO:root:epoch: 71, train_loss: 0.0117, train_perplexity: 1.0118
+INFO:root:epoch: 72, train_loss: 0.0115, train_perplexity: 1.0116
+INFO:root:epoch: 73, train_loss: 0.0117, train_perplexity: 1.0118
+INFO:root:epoch: 74, train_loss: 0.0114, train_perplexity: 1.0114
+INFO:root:epoch: 75, train_loss: 0.0116, train_perplexity: 1.0116
+INFO:root:epoch: 76, train_loss: 0.0113, train_perplexity: 1.0114
+INFO:root:epoch: 77, train_loss: 0.0116, train_perplexity: 1.0116
+INFO:root:epoch: 78, train_loss: 0.0112, train_perplexity: 1.0113
+INFO:root:epoch: 79, train_loss: 0.0115, train_perplexity: 1.0116
+INFO:root:epoch: 80, train_loss: 0.0112, train_perplexity: 1.0112
+INFO:root:epoch: 81, train_loss: 0.0114, train_perplexity: 1.0115
+INFO:root:epoch: 82, train_loss: 0.0111, train_perplexity: 1.0112
+INFO:root:epoch: 83, train_loss: 0.0114, train_perplexity: 1.0114
+INFO:root:epoch: 84, train_loss: 0.0111, train_perplexity: 1.0111
+INFO:root:epoch: 85, train_loss: 0.0113, train_perplexity: 1.0114
+INFO:root:epoch: 86, train_loss: 0.0110, train_perplexity: 1.0111
+INFO:root:epoch: 87, train_loss: 0.0113, train_perplexity: 1.0113
+INFO:root:epoch: 88, train_loss: 0.0110, train_perplexity: 1.0111
+INFO:root:epoch: 89, train_loss: 0.0112, train_perplexity: 1.0113
+INFO:root:epoch: 90, train_loss: 0.0110, train_perplexity: 1.0110
+INFO:root:epoch: 91, train_loss: 0.0112, train_perplexity: 1.0113
+INFO:root:epoch: 92, train_loss: 0.0109, train_perplexity: 1.0110
+INFO:root:epoch: 93, train_loss: 0.0112, train_perplexity: 1.0112
+INFO:root:epoch: 94, train_loss: 0.0109, train_perplexity: 1.0110
+INFO:root:epoch: 95, train_loss: 0.0111, train_perplexity: 1.0112
+INFO:root:epoch: 96, train_loss: 0.0109, train_perplexity: 1.0109
+INFO:root:epoch: 97, train_loss: 0.0111, train_perplexity: 1.0112
+INFO:root:epoch: 98, train_loss: 0.0108, train_perplexity: 1.0109
+INFO:root:epoch: 99, train_loss: 0.0111, train_perplexity: 1.0111

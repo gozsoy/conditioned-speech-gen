@@ -1,0 +1,19 @@
+# experiment
+experiment_name: speaker_name_as_prompt_deneme
+
+# directory info
+data_path: /cluster/scratch/goezsoy/nlp_lss_datasets/processed_df.csv
+log_dir: '../logs'
+checkpoint_dir: '../checkpoints'
+
+# training
+epochs: 100
+batch_size: 2
+learning_rate: 0.0001
+early_stopping: True  # fix
+lr_scheduling: True  # fix
+
+# generation
+do_sample: True
+temperature: 0.9
+max_length: 200
