@@ -13,6 +13,7 @@ def get_data(cfg, split=0):
     # work on subset of speakers
     temp_bioguides = ['H001055','C001074']
     temp_df = processed_df[processed_df.bioguide_id.isin(temp_bioguides)]
+    temp_df = processed_df.iloc[:128000] #DELETE THIS LINE
 
     # dataset creation and formating
     tokenizer = GPT2Tokenizer.from_pretrained("EleutherAI/gpt-neo-125M")
@@ -22,7 +23,7 @@ def get_data(cfg, split=0):
 
     # TODO: truncation in effect so split longer speeches before this
     def tokenize_function(row):
-        return {**tokenizer(row['first_name'] + ' ' + row['last_name'] + ' ' + row['speech'],truncation=True)}
+        return {**tokenizer(row['first_name'] + ' ' + row['last_name'] + ' ' + row['speech'],truncation=True,max_length=cfg['max_seq_len'])}
 
     dataset = dataset.map(tokenize_function, batched=False)
     dataset.set_format(type='torch', columns=['input_ids', 'attention_mask'])

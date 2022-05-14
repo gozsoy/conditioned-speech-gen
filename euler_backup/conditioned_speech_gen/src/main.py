@@ -1,10 +1,12 @@
 import os
+import yaml
+import logging
 import argparse
+import numpy as np
+
 import torch
 import torch.optim as optim
-import logging
-import yaml
-import numpy as np
+from torch.cuda.amp import GradScaler, autocast
 
 from dataset import get_data
 from model import Net
@@ -20,41 +22,45 @@ def train(cfg, device):
     net = Net().to(device)
 
     optimizer = optim.Adam(net.parameters(), lr=cfg['learning_rate'])
+    scaler = GradScaler()
 
     lowest_train_loss = float('inf')
+
+    # zero the parameters' gradients
+    optimizer.zero_grad()
 
     for epoch in range(cfg['epochs']):  # loop over dataset
 
         batch_perplexity_array=[]
         batch_loss_array=[]
 
-        for batch_data in train_dataloader: # loop over train batches
+        for batch_idx, batch_data in enumerate(train_dataloader): # loop over train batches
+            batch_data = batch_data.to(device)
 
-            # zero the parameters' gradients
-            optimizer.zero_grad()
-
-            # forward pass
-            loss,logits = net(batch_data.to(device))
+            # forward pass with mixed precision
+            with autocast():
+                loss,_ = net(batch_data)
 
             # backpropagation
-            loss.backward()
+            scaler.scale(loss / cfg['gradient_accumulations']).backward()
 
             # gradient descent with optimizer
-            # TODO: gradient clipping here
-            optimizer.step()
+            if (batch_idx + 1) % cfg['gradient_accumulations'] == 0:
+                scaler.step(optimizer)
+                scaler.update()
+                optimizer.zero_grad()
 
             # save batch metrics
             detached_loss = loss.detach().cpu()
             batch_loss_array.append(detached_loss.item())
-            # TODO: probably wrong computation. check https://huggingface.co/docs/transformers/perplexity
             batch_perplexity_array.append(torch.exp(detached_loss).item())
-        
+
         # display metrics at end of epoch
         epoch_train_loss, epoch_train_perplexity = np.mean(batch_loss_array), np.mean(batch_perplexity_array)
         logging.info(f'epoch: {epoch}, train_loss: {epoch_train_loss:.4f}, train_perplexity: {epoch_train_perplexity:.4f}')
 
         # save last and best -if lowest so far-
-        save_dict = {'epoch': epoch,
+        '''save_dict = {'epoch': epoch,
                     'model_state_dict': net.state_dict(),
                     'optimizer_state_dict': optimizer.state_dict(),
                     'loss': epoch_train_loss}
@@ -62,7 +68,7 @@ def train(cfg, device):
         
         if lowest_train_loss > epoch_train_loss:
             lowest_train_loss = epoch_train_loss
-            torch.save(save_dict, os.path.join(cfg['checkpoint_dir'],cfg['experiment_name']+'_best.pt'))
+            torch.save(save_dict, os.path.join(cfg['checkpoint_dir'],cfg['experiment_name']+'_best.pt'))'''
     
     
     return

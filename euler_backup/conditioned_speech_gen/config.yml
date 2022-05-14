@@ -7,13 +7,15 @@ log_dir: '../logs'
 checkpoint_dir: '../checkpoints'
 
 # training
-epochs: 100
-batch_size: 2
-learning_rate: 0.0001
-early_stopping: True  # fix
-lr_scheduling: True  # fix
+epochs: 5
+max_seq_len: 256 
+batch_size: 8
+gradient_accumulations: 8  # batch_size * gr_acc = effective batch size
+learning_rate: 0.0001 # 1e-5?
+#early_stopping: True  # fix
+#lr_scheduling: True  # fix
 
 # generation
-do_sample: True
-temperature: 0.9
-max_length: 200
+#do_sample: True
+#temperature: 0.9
+#max_length: 200

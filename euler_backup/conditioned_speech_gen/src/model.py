@@ -1,12 +1,15 @@
 import torch
 import torch.nn as nn
-from transformers import GPTNeoForCausalLM
+from transformers import GPTNeoConfig, GPTNeoForCausalLM
 
 
 class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
-        self.gpt_neo = GPTNeoForCausalLM.from_pretrained("EleutherAI/gpt-neo-125M")
+        config = GPTNeoConfig.from_pretrained("EleutherAI/gpt-neo-125M")
+        config.gradient_checkpointing = True
+
+        self.gpt_neo = GPTNeoForCausalLM.from_pretrained("EleutherAI/gpt-neo-125M", config=config)
 
     def forward(self, inputs):
         
