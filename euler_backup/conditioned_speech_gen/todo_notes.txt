@@ -1,16 +1,21 @@
 ## TODO
 
-1- generate some text per epoch -> how to use tensorboard in Euler? (add_text)
+1- use larger subset of speakers -> use validation data
+2- try different prompts: "Travis Childers says the following:" vs "Travis Childers " vs "The following is a speech by Travis Childers."
 
-2- use larger subset of speakers -> use validation data
-3- wise truncation -> perplexity computation wrong? (not, actually!)
+3- wise truncation 
+4- add callbacks: lr scheduler, early stopper
+5- only include in corpus text with small length?
 
-4- reduce GPU memory usage: reducing max_token_size (promising), use distilgpt2
-
-5- put dots for each iteration within epoch
-
-6- huggingface Accelerate you have full control over the training loop and can essentially write the loop in pure PyTorch with some minor modifications
 
 ## DONE
 0- try with only single example -> overfit -> generate text out of it (pipeline on notebooks?)
-4- reduce GPU memory usage: freezing some parts (bottom 6) -> no
+4- reduce GPU memory usage: freezing some parts (bottom 6) -> no, reducing max_token_size -> good
+3- perplexity computation wrong? (not, actually!)
+5- higher quality logging and tensorboard
+1- generate some text per epoch -> how to use tensorboard in Euler? (add_text)
+
+
+## FURTHER
+5- reduce GPU memory usage: use distilgpt2
+6- huggingface Accelerate you have full control over the training loop and can essentially write the loop in pure PyTorch with some minor modifications

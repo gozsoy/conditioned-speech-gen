@@ -8,6 +8,7 @@ class Net(nn.Module):
         super(Net, self).__init__()
         config = GPTNeoConfig.from_pretrained("EleutherAI/gpt-neo-125M")
         config.gradient_checkpointing = True
+        config.use_cache = False
 
         self.gpt_neo = GPTNeoForCausalLM.from_pretrained("EleutherAI/gpt-neo-125M", config=config)
 

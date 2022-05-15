@@ -1,0 +1,234 @@
+Sender: LSF System <lsfadmin@eu-g3-016>
+Subject: Job 218547007: <python main.py --config ../config.yml> in cluster <euler> Exited
+
+Job <python main.py --config ../config.yml> was submitted from host <eu-login-36> by user <goezsoy> in cluster <euler> at Sun May 15 12:16:34 2022
+Job was executed on host(s) <4*eu-g3-016>, in queue <gpu.4h>, as user <goezsoy> in cluster <euler> at Sun May 15 12:16:43 2022
+</cluster/home/goezsoy> was used as the home directory.
+</cluster/home/goezsoy/conditioned_speech_gen/src> was used as the working directory.
+Started at Sun May 15 12:16:43 2022
+Terminated at Sun May 15 12:17:33 2022
+Results reported at Sun May 15 12:17:33 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py --config ../config.yml
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   25.57 sec.
+    Max Memory :                                 4935 MB
+    Average Memory :                             2219.00 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               11449.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                9
+    Run time :                                   49 sec.
+    Turnaround time :                            59 sec.
+
+The output (if any) follows:
+
+2022-05-15 12:16:48.840272: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+  0%|          | 0/19 [00:00<?, ?ex/s] 74%|███████▎  | 14/19 [00:00<00:00, 132.47ex/s]100%|██████████| 19/19 [00:00<00:00, 133.23ex/s]
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Traceback (most recent call last):
+  File "main.py", line 159, in <module>
+    train(cfg, device)
+  File "main.py", line 91, in train
+    gen_text = tokenizer.decode(gen_tokens,skip_special_tokens=True)
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 3326, in decode
+    return self._decode(
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/tokenization_utils.py", line 928, in _decode
+    filtered_tokens = self.convert_ids_to_tokens(token_ids, skip_special_tokens=skip_special_tokens)
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/tokenization_utils.py", line 903, in convert_ids_to_tokens
+    index = int(index)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+Sender: LSF System <lsfadmin@eu-g3-017>
+Subject: Job 218547817: <python main.py --config ../config.yml> in cluster <euler> Exited
+
+Job <python main.py --config ../config.yml> was submitted from host <eu-login-36> by user <goezsoy> in cluster <euler> at Sun May 15 12:27:04 2022
+Job was executed on host(s) <4*eu-g3-017>, in queue <gpu.4h>, as user <goezsoy> in cluster <euler> at Sun May 15 12:27:14 2022
+</cluster/home/goezsoy> was used as the home directory.
+</cluster/home/goezsoy/conditioned_speech_gen/src> was used as the working directory.
+Started at Sun May 15 12:27:14 2022
+Terminated at Sun May 15 12:32:32 2022
+Results reported at Sun May 15 12:32:32 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py --config ../config.yml
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   273.23 sec.
+    Max Memory :                                 7082 MB
+    Average Memory :                             5962.92 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               9302.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                10
+    Run time :                                   317 sec.
+    Turnaround time :                            328 sec.
+
+The output (if any) follows:
+
+2022-05-15 12:27:32.280678: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+  0%|          | 0/19 [00:00<?, ?ex/s] 68%|██████▊   | 13/19 [00:00<00:00, 128.29ex/s]100%|██████████| 19/19 [00:00<00:00, 131.05ex/s]
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Traceback (most recent call last):
+  File "main.py", line 159, in <module>
+    train(cfg, device)
+  File "main.py", line 56, in train
+    scaler.step(optimizer)
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/cuda/amp/grad_scaler.py", line 316, in step
+    self.unscale_(optimizer)
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/cuda/amp/grad_scaler.py", line 267, in unscale_
+    optimizer_state["found_inf_per_device"] = self._unscale_grads_(optimizer, inv_scale, found_inf, False)
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/cuda/amp/grad_scaler.py", line 201, in _unscale_grads_
+    if param.grad.is_sparse:
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/tensor.py", line 953, in grad
+    return self._grad
+KeyboardInterrupt
+Sender: LSF System <lsfadmin@eu-g3-017>
+Subject: Job 218548303: <python main.py --config ../config.yml> in cluster <euler> Exited
+
+Job <python main.py --config ../config.yml> was submitted from host <eu-login-36> by user <goezsoy> in cluster <euler> at Sun May 15 12:32:37 2022
+Job was executed on host(s) <4*eu-g3-017>, in queue <gpu.4h>, as user <goezsoy> in cluster <euler> at Sun May 15 12:32:43 2022
+</cluster/home/goezsoy> was used as the home directory.
+</cluster/home/goezsoy/conditioned_speech_gen/src> was used as the working directory.
+Started at Sun May 15 12:32:43 2022
+Terminated at Sun May 15 12:37:47 2022
+Results reported at Sun May 15 12:37:47 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py --config ../config.yml
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   272.37 sec.
+    Max Memory :                                 7075 MB
+    Average Memory :                             5952.33 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               9309.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                10
+    Run time :                                   303 sec.
+    Turnaround time :                            310 sec.
+
+The output (if any) follows:
+
+2022-05-15 12:32:57.447081: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+  0%|          | 0/38 [00:00<?, ?ex/s] 55%|█████▌    | 21/38 [00:00<00:00, 206.10ex/s]100%|██████████| 38/38 [00:00<00:00, 177.48ex/s]
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Traceback (most recent call last):
+  File "main.py", line 159, in <module>
+    train(cfg, device)
+  File "main.py", line 84, in train
+    gen_tokens = net.gpt_neo.generate(
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/autograd/grad_mode.py", line 26, in decorate_context
+    return func(*args, **kwargs)
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/generation_utils.py", line 1310, in generate
+    return self.sample(
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/generation_utils.py", line 1926, in sample
+    outputs = self(
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 739, in forward
+    transformer_outputs = self.transformer(
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 618, in forward
+    outputs = block(
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 323, in forward
+    attn_outputs = self.attn(
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 275, in forward
+    return self.attention(
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 238, in forward
+    attn_output, attn_weights = self._attn(query, key, value, attention_mask, head_mask)
+  File "/cluster/home/goezsoy/.local/lib/python3.8/site-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 197, in _attn
+    attn_weights = nn.functional.softmax(attn_weights, dim=-1)
+  File "/cluster/apps/nss/gcc-6.3.0/python_gpu/3.8.5/torch/nn/functional.py", line 1512, in softmax
+    ret = input.softmax(dim)
+KeyboardInterrupt
