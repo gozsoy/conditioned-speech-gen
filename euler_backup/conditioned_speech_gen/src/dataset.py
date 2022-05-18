@@ -1,3 +1,4 @@
+import os
 import torch
 import numpy as np
 import pandas as pd
@@ -8,18 +9,18 @@ from transformers import GPT2Tokenizer
 def get_data(cfg, split=0):
 
     # read whole corpus
-    processed_df = pd.read_csv(cfg['data_path'])
-
-    # work on subset of speakers
-    temp_bioguides = ['H001055','C001074']
-    temp_df = processed_df[processed_df.bioguide_id.isin(temp_bioguides)]
-    #temp_df = processed_df.iloc[:1280] #DELETE THIS LINE
+    if split == 0:
+        processed_df = pd.read_csv(os.path.join(cfg['data_path'],'processed_df_train.csv'))
+    elif split == 1:
+        processed_df = pd.read_csv(os.path.join(cfg['data_path'],'processed_df_valid.csv'))
+    else:
+        raise Exception('wrong dataset split')        
 
     # dataset creation and formating
     tokenizer = GPT2Tokenizer.from_pretrained("EleutherAI/gpt-neo-125M")
     tokenizer.pad_token = tokenizer.eos_token
 
-    dataset = Dataset.from_pandas(temp_df)
+    dataset = Dataset.from_pandas(processed_df)
 
     # TODO: truncation in effect so split longer speeches before this
     # TODO: different prompt designs

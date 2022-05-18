@@ -13,10 +13,34 @@ from transformers import GPT2Tokenizer
 from dataset import get_data
 from model import Net
 
+
+def generate_text(model, tokenizer, speaker_name_prompts):
+
+    for i in range(len(speaker_name_prompts)):
+        inputs = tokenizer(speaker_name_prompts[i], return_tensors="pt").to(device)
+
+        gen_tokens = model.gpt_neo.generate(
+            inputs.input_ids,
+            do_sample=True,
+            max_length=cfg['max_seq_len'],
+            top_k=50,
+            top_p=0.92,
+            num_return_sequences=2
+        )
+
+        for temp_gen_token in gen_tokens:
+            gen_text = tokenizer.decode(temp_gen_token,skip_special_tokens=True)
+            generated_text_logger.info(gen_text)
+
+    return
+
 def train(cfg, device):
 
     train_dataloader, tokenizer = get_data(cfg, split=0)
-    performance_logger.info('train data loaded.\n')
+    performance_logger.info('train data loaded.')
+
+    valid_dataloader, _ = get_data(cfg, split=1)
+    performance_logger.info('valid data loaded.\n')
 
     net = Net().to(device)
 
@@ -25,10 +49,17 @@ def train(cfg, device):
     # train and validation writers will be different
     #train_writer = SummaryWriter(log_dir=os.path.join(cfg['log_dir'],cfg['experiment_name'],'train'))
     
-    lowest_train_loss = float('inf')
+    lowest_train_loss = float('inf') # should be val loss for checkpointing
 
     # zero the parameters' gradients
     optimizer.zero_grad()
+
+    # TEMPORARY: generate speech before fine-tuning the model (used for validity check)
+    speaker_name_prompts = ['Mitch McConnell', 'Harry Reid', 'Richard Durbin', 'Neil Abercrombie', 'Travis Childers', 'Gokberk Ozsoy']
+    generated_text_logger.info('before fine-tuning')
+    generate_text(net, tokenizer, speaker_name_prompts)
+    generated_text_logger.info('-----')
+
 
     for epoch in range(cfg['epochs']):  # loop over dataset
 
@@ -40,6 +71,7 @@ def train(cfg, device):
 
         total_iterations = int(len(train_dataloader) / cfg['gradient_accumulations'])
 
+        # training
         for batch_idx, batch_data in enumerate(train_dataloader): # loop over train batches
             
             batch_data = batch_data.to(device)
@@ -70,47 +102,56 @@ def train(cfg, device):
                 #train_writer.add_scalar('iter_loss', intermediate_batch_loss, int((batch_idx + 1) / cfg["gradient_accumulations"]) + epoch*total_iterations)
                 #train_writer.add_scalar('iter_perplexity', intermediate_batch_perplexity, int((batch_idx + 1) / cfg["gradient_accumulations"]) + epoch*total_iterations)
 
-        # text_generation
+                # TEMPORARY: generate text after between iterations (used for validity check)
+                generated_text_logger.info(f'iter: {int((batch_idx + 1) / cfg["gradient_accumulations"])} / {total_iterations}')
+                generate_text(net, tokenizer, speaker_name_prompts)
+                generated_text_logger.info('-----')
+
+        # validation
         net.eval()
         with torch.no_grad():
-            #speaker_name_prompts = ['Neil Abercrombie ', 'Travis Childers ', 'Harry Reid ', 'Mitch McConnell ', 'Joseph Heck ']
-            speaker_name_prompts = ['Joseph Heck', 'Travis Childers']
 
-            generated_text_logger.info(f'epoch: {epoch+1} / {cfg["epochs"]}')
+            batch_perplexity_array_valid=[]
+            batch_loss_array_valid=[]
 
-            for i in range(len(speaker_name_prompts)):
-                inputs = tokenizer(speaker_name_prompts[i], return_tensors="pt").to(device)
-
-                gen_tokens = net.gpt_neo.generate(
-                    inputs.input_ids,
-                    do_sample=True,
-                    temperature=0.9,
-                    max_length=cfg['max_seq_len'],
-                    repetition_penalty=1.0,
-                )
-                gen_text = tokenizer.decode(gen_tokens[0],skip_special_tokens=True)
+            for _, valid_batch_data in enumerate(valid_dataloader): # loop over valid batches
                 
-                generated_text_logger.info(gen_text)
-            
+                valid_batch_data = valid_batch_data.to(device)
+
+                # forward pass with mixed precision
+                with autocast():
+                    val_loss,_ = net(valid_batch_data)
+
+                # save batch metrics
+                detached_val_loss = val_loss.detach().cpu()
+                batch_loss_array_valid.append(detached_val_loss.item())
+                batch_perplexity_array_valid.append(torch.exp(detached_val_loss).item())
+
+
+            # generate speech with fine-tuned model
+            generated_text_logger.info(f'epoch: {epoch+1} / {cfg["epochs"]}')
+            generate_text(net, tokenizer, speaker_name_prompts)
             generated_text_logger.info('-----')
             
 
         # display metrics at end of epoch
         epoch_train_loss, epoch_train_perplexity = np.mean(batch_loss_array), np.mean(batch_perplexity_array)
-        performance_logger.info(f'epoch: {epoch+1} / {cfg["epochs"]}, train_loss: {epoch_train_loss:.4f}, train_perplexity: {epoch_train_perplexity:.4f}\n')
+        epoch_val_loss, epoch_val_perplexity = np.mean(batch_loss_array_valid), np.mean(batch_perplexity_array_valid)
+
+        performance_logger.info(f'epoch: {epoch+1} / {cfg["epochs"]}, train_loss: {epoch_train_loss:.4f}, train_perplexity: {epoch_train_perplexity:.4f}, val_loss: {epoch_val_loss:.4f}, val_perplexity: {epoch_val_perplexity:.4f}\n')
         #train_writer.add_scalar('epoch_loss', epoch_train_loss, epoch)
         #train_writer.add_scalar('epoch_perplexity', epoch_train_perplexity, epoch)
 
 
         # save if best
-        '''
-        if lowest_train_loss > epoch_train_loss:
-            lowest_train_loss = epoch_train_loss
-            save_dict = {'epoch': epoch,
-                    'model_state_dict': net.state_dict(),
-                    'optimizer_state_dict': optimizer.state_dict(),
-                    'loss': epoch_train_loss}
-            torch.save(save_dict, os.path.join(cfg['checkpoint_dir'],cfg['experiment_name']+'_best.pt'))'''
+        #if lowest_train_loss > epoch_train_loss:
+        #    lowest_train_loss = epoch_train_loss
+        # save for each epoch
+        save_dict = {'epoch': epoch,
+                'model_state_dict': net.state_dict(),
+                'optimizer_state_dict': optimizer.state_dict(),
+                'loss': epoch_train_loss}
+        torch.save(save_dict, os.path.join(cfg['checkpoint_dir'],cfg['experiment_name']+'_epoch'+str(epoch)+'.pt'))
     
     
     return
@@ -128,13 +169,8 @@ if __name__ == '__main__':
     with open(_args.config, "r") as f:
         cfg = yaml.safe_load(f)
 
-    # create logger
-    #logging.basicConfig(filename=os.path.join(cfg['log_dir'],cfg['experiment_name']), level=logging.INFO, format='%(asctime)s %(message)s', datefmt='%d-%m-%Y %H:%M')
-    
-    #performance_logger = logging.getLogger(os.path.join(cfg['log_dir'],cfg['experiment_name']))
-    #generated_text_logger = logging.getLogger(os.path.join(cfg['log_dir'],cfg['experiment_name']+'2'))
-    
-    performance_logger = logging.getLogger('perf_logger')
+    # create loggers
+    performance_logger = logging.getLogger(cfg['experiment_name']+'_perf_logger')
     performance_logger.setLevel(logging.INFO)
     formatter = logging.Formatter('%(asctime)s  - %(message)s','%d-%m-%Y %H:%M')
     perf_file_handler = logging.FileHandler(os.path.join(cfg['log_dir'],cfg['experiment_name']+'_performance'))
@@ -142,7 +178,7 @@ if __name__ == '__main__':
     perf_file_handler.setFormatter(formatter)
     performance_logger.addHandler(perf_file_handler)
 
-    generated_text_logger = logging.getLogger('gen_logger')
+    generated_text_logger = logging.getLogger(cfg['experiment_name']+'_gen_logger')
     generated_text_logger.setLevel(logging.INFO)
     formatter2 = logging.Formatter('%(message)s')
     gen_file_handler = logging.FileHandler(os.path.join(cfg['log_dir'],cfg['experiment_name']+'_generated_texts'))
@@ -150,8 +186,9 @@ if __name__ == '__main__':
     gen_file_handler.setFormatter(formatter2)
     generated_text_logger.addHandler(gen_file_handler)
 
-
+    # print settings
     performance_logger.info(f'cfg: {cfg}')
+
     # setting device on GPU if available, else CPU
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     performance_logger.info(f'Using device: {device}')
