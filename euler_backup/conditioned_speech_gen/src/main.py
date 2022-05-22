@@ -17,20 +17,34 @@ from model import Net
 def generate_text(model, tokenizer, speaker_name_prompts):
 
     for i in range(len(speaker_name_prompts)):
-        inputs = tokenizer(speaker_name_prompts[i], return_tensors="pt").to(device)
+        # TEMPORARY
+        complete_prompt = 'The following is a speech by ' + speaker_name_prompts[i] + '.' 
+        inputs = tokenizer(complete_prompt, return_tensors="pt").to(device)
+        #inputs = tokenizer(speaker_name_prompts[i], return_tensors="pt").to(device)
 
+        # beam search + sampling
+        gen_tokens = model.gpt_neo.generate(
+            inputs.input_ids,
+            num_beams=5, 
+            do_sample = True,
+            early_stopping=True,
+            max_length=cfg['max_seq_len'],
+            num_return_sequences=1
+        )
+        gen_text = tokenizer.decode(gen_tokens[0],skip_special_tokens=True)
+        generated_text_logger.info(gen_text)
+
+        # nucleus sampling
         gen_tokens = model.gpt_neo.generate(
             inputs.input_ids,
             do_sample=True,
             max_length=cfg['max_seq_len'],
-            top_k=50,
-            top_p=0.92,
-            num_return_sequences=2
+            top_k=100,
+            top_p=0.9,
+            num_return_sequences=1
         )
-
-        for temp_gen_token in gen_tokens:
-            gen_text = tokenizer.decode(temp_gen_token,skip_special_tokens=True)
-            generated_text_logger.info(gen_text)
+        gen_text = tokenizer.decode(gen_tokens[0],skip_special_tokens=True)
+        generated_text_logger.info(gen_text)
 
     return
 
@@ -146,12 +160,13 @@ def train(cfg, device):
         # save if best
         #if lowest_train_loss > epoch_train_loss:
         #    lowest_train_loss = epoch_train_loss
-        # save for each epoch
-        save_dict = {'epoch': epoch,
-                'model_state_dict': net.state_dict(),
-                'optimizer_state_dict': optimizer.state_dict(),
-                'loss': epoch_train_loss}
-        torch.save(save_dict, os.path.join(cfg['checkpoint_dir'],cfg['experiment_name']+'_epoch'+str(epoch)+'.pt'))
+        # save only for selected epochs
+        if epoch == 2 or epoch == 5:
+            save_dict = {'epoch': epoch,
+                    'model_state_dict': net.state_dict(),
+                    'optimizer_state_dict': optimizer.state_dict(),
+                    'loss': epoch_train_loss}
+            torch.save(save_dict, os.path.join(cfg['checkpoint_dir'],cfg['experiment_name']+'_epoch'+str(epoch)+'.pt'))
     
     
     return

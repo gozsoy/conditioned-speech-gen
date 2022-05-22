@@ -23,9 +23,8 @@ def get_data(cfg, split=0):
     dataset = Dataset.from_pandas(processed_df)
 
     # TODO: truncation in effect so split longer speeches before this
-    # TODO: different prompt designs
     def tokenize_function(row):
-        return {**tokenizer(row['first_name'] + ' ' + row['last_name'] + row['speech'],truncation=True,max_length=cfg['max_seq_len'])}
+        return {**tokenizer('The following is a speech by '+ row['first_name'] + ' ' + row['last_name'] + '.' + row['speech'],truncation=True,max_length=cfg['max_seq_len'])}
 
     dataset = dataset.map(tokenize_function, batched=False) # change batched = True
     dataset.set_format(type='torch', columns=['input_ids', 'attention_mask'])

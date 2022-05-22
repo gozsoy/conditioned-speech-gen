@@ -1,5 +1,5 @@
 # experiment
-experiment_name: 17may_speaker_name_basic_prompt_lr00002_seqlen256_batch_8_8
+experiment_name: 18may_speaker_name_following_lr00002_seqlen256_batch_8_8
 
 # directory info
 data_path: /cluster/scratch/goezsoy/nlp_lss_datasets
@@ -7,8 +7,8 @@ log_dir: ../logs
 checkpoint_dir: /cluster/scratch/goezsoy/nlp_lss_checkpoints
 
 # training
-epochs: 4
-max_seq_len: 256 
+epochs: 10
+max_seq_len: 256
 batch_size: 8
 gradient_accumulations: 8  # batch_size * gr_acc = effective batch size
 learning_rate: 0.00002 # 1e-5?

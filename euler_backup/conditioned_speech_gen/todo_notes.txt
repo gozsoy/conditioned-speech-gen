@@ -1,15 +1,11 @@
 ## TODO
 
-3- train with different prompts: "Travis Childers says the following:"(NO) vs "Travis Childers"(YES) vs "The following is a speech by Travis Childers."(YES)
+- prefix tuning -> easily extendible on top of this baseline
+- prefix tuning -> training with only most frequent 50 speakers
+- prefix tuning -> state specific training
 
-
-
-- training with only most frequent 50 speakers (prompt "Gokberk Ozsoy")
-- state specific training (save this to prefix tuning)
-- wise truncation 
+- wise truncation (IMPORTANT)
 - add callbacks: lr scheduler, early stopper
-- prefix tuning -> easily extendible on top of this baseline (for top 50 frequent speakers)
-- speaker name prompted fine tuning. during generation prompt-> "Travis Childers talking about new legislation year in Nevada"
 
 
 ## DONE
@@ -23,13 +19,16 @@
 0- unconditioned model text generation ("The following is a speech by Travis Childers." or "Travis Childers")
 1- observe generation quality when perplexity around 20, not 1 (1st epoch's initial batches)
 4- topk and topp sampling (3 different generation scenarios at 1 go?)
+3- train with different prompts: "Travis Childers says the following:"(NO) vs "Travis Childers"(YES) vs "The following is a speech by Travis Childers."(YES)
 
 
 ## MAYBE
 5- reduce GPU memory usage: use distilgpt2
 6- huggingface Accelerate you have full control over the training loop and can essentially write the loop in pure PyTorch with some minor modifications
 9- Using gpt-2 novelty bleu or rouge scores
+- speaker name prompted fine tuning. during generation prompt-> "Travis Childers talking about new legislation year in Nevada"
 
 
 # experiment names:
 speaker_name_basic_prompt -> row['first_name'] + ' ' + row['last_name'] + row['speech']
+speaker_name_following -> 'The following is a speech by '+ row['first_name'] + ' ' + row['last_name'] + '.' + row['speech']
