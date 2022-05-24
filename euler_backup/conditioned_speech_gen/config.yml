@@ -1,5 +1,6 @@
 # experiment
-experiment_name: 18may_speaker_name_following_lr00002_seqlen256_batch_8_8
+model: prefix_tuning # speaker_prompt, prefix_tuning, vae_bert
+experiment_name: 24may_prefix_tuning_stp_prlen5_embsize300_speaksize106_maxseqlen256_batch8_8
 
 # directory info
 data_path: /cluster/scratch/goezsoy/nlp_lss_datasets
@@ -7,11 +8,11 @@ log_dir: ../logs
 checkpoint_dir: /cluster/scratch/goezsoy/nlp_lss_checkpoints
 
 # training
-epochs: 10
+epochs: 200
 max_seq_len: 256
 batch_size: 8
 gradient_accumulations: 8  # batch_size * gr_acc = effective batch size
-learning_rate: 0.00002 # 1e-5?
+learning_rate: 0.0001 # 1e-5?
 print_iter_freq: 500
 #early_stopping: True  # fix
 #lr_scheduling: True  # fix
@@ -20,3 +21,10 @@ print_iter_freq: 500
 #do_sample: True
 #temperature: 0.9
 #max_length: 200
+
+# prefix tuning
+prefix_len: 5
+embed_size_per_token: 300
+speaker_size: 106 #800
+freeze_gpt: False
+encoded: 'encoded_st_p_ids' # 'encoded_bioguide_ids'

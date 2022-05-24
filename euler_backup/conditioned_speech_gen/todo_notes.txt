@@ -1,11 +1,16 @@
 ## TODO
 
-- prefix tuning -> easily extendible on top of this baseline
+0- speaker emb further investigate
+3- code bug checking
+1- code public
+2- presentation
+4- prefix tuning uzerinde dusun
+
+tsne plot per epoch to see changes in clusters
 - prefix tuning -> training with only most frequent 50 speakers
 - prefix tuning -> state specific training
 
-- wise truncation (IMPORTANT)
-- add callbacks: lr scheduler, early stopper
+- wise truncation
 
 
 ## DONE
@@ -20,14 +25,14 @@
 1- observe generation quality when perplexity around 20, not 1 (1st epoch's initial batches)
 4- topk and topp sampling (3 different generation scenarios at 1 go?)
 3- train with different prompts: "Travis Childers says the following:"(NO) vs "Travis Childers"(YES) vs "The following is a speech by Travis Childers."(YES)
-
+2- finetune gpt as well (allows cross contamination) or fine-tune for 1 epoch then freeze?
 
 ## MAYBE
 5- reduce GPU memory usage: use distilgpt2
 6- huggingface Accelerate you have full control over the training loop and can essentially write the loop in pure PyTorch with some minor modifications
 9- Using gpt-2 novelty bleu or rouge scores
 - speaker name prompted fine tuning. during generation prompt-> "Travis Childers talking about new legislation year in Nevada"
-
+- add callbacks: lr scheduler, early stopper
 
 # experiment names:
 speaker_name_basic_prompt -> row['first_name'] + ' ' + row['last_name'] + row['speech']

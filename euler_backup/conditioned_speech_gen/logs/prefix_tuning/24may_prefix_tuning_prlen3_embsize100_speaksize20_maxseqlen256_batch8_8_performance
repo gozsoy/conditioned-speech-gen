@@ -1,0 +1,605 @@
+24-05-2022 12:36  - cfg: {'model': 'prefix_tuning', 'experiment_name': '24may_prefix_tuning_prlen3_embsize100_speaksize20_maxseqlen256_batch8_8', 'data_path': '/cluster/scratch/goezsoy/nlp_lss_datasets', 'log_dir': '../logs', 'checkpoint_dir': '/cluster/scratch/goezsoy/nlp_lss_checkpoints', 'epochs': 200, 'max_seq_len': 256, 'batch_size': 8, 'gradient_accumulations': 8, 'learning_rate': 0.0001, 'print_iter_freq': 500, 'prefix_len': 3, 'embed_size_per_token': 100, 'speaker_size': 20, 'freeze_gpt': False}
+24-05-2022 12:36  - Using device: cuda:0
+24-05-2022 12:37  - train data loaded.
+24-05-2022 12:37  - valid data loaded.
+
+24-05-2022 12:37  - epoch: 1 / 200
+24-05-2022 12:39  - epoch: 1 / 200, train_loss: 8.5177, train_perplexity: 85333.0983
+
+24-05-2022 12:39  - epoch: 2 / 200
+24-05-2022 12:41  - epoch: 2 / 200, train_loss: 6.6566, train_perplexity: 801.1302
+
+24-05-2022 12:41  - epoch: 3 / 200
+24-05-2022 12:44  - epoch: 3 / 200, train_loss: 6.4537, train_perplexity: 651.2348
+
+24-05-2022 12:44  - epoch: 4 / 200
+24-05-2022 12:46  - epoch: 4 / 200, train_loss: 6.3095, train_perplexity: 562.1534
+
+24-05-2022 12:46  - epoch: 5 / 200
+24-05-2022 12:48  - epoch: 5 / 200, train_loss: 6.1477, train_perplexity: 479.3229
+
+24-05-2022 12:48  - epoch: 6 / 200
+24-05-2022 12:50  - epoch: 6 / 200, train_loss: 5.9851, train_perplexity: 409.3308
+
+24-05-2022 12:50  - epoch: 7 / 200
+24-05-2022 12:53  - epoch: 7 / 200, train_loss: 5.8023, train_perplexity: 340.8406
+
+24-05-2022 12:53  - epoch: 8 / 200
+24-05-2022 12:55  - epoch: 8 / 200, train_loss: 5.6117, train_perplexity: 282.3022
+
+24-05-2022 12:55  - epoch: 9 / 200
+24-05-2022 12:57  - epoch: 9 / 200, train_loss: 5.4300, train_perplexity: 235.8196
+
+24-05-2022 12:57  - epoch: 10 / 200
+24-05-2022 12:59  - epoch: 10 / 200, train_loss: 5.2627, train_perplexity: 199.6687
+
+24-05-2022 12:59  - epoch: 11 / 200
+24-05-2022 13:02  - epoch: 11 / 200, train_loss: 5.0966, train_perplexity: 169.3369
+
+24-05-2022 13:02  - epoch: 12 / 200
+24-05-2022 13:04  - epoch: 12 / 200, train_loss: 4.9665, train_perplexity: 148.1894
+
+24-05-2022 13:04  - epoch: 13 / 200
+24-05-2022 13:06  - epoch: 13 / 200, train_loss: 4.8272, train_perplexity: 128.9523
+
+24-05-2022 13:06  - epoch: 14 / 200
+24-05-2022 13:08  - epoch: 14 / 200, train_loss: 4.7003, train_perplexity: 113.6285
+
+24-05-2022 13:08  - epoch: 15 / 200
+24-05-2022 13:11  - epoch: 15 / 200, train_loss: 4.5753, train_perplexity: 100.5669
+
+24-05-2022 13:11  - epoch: 16 / 200
+24-05-2022 13:13  - epoch: 16 / 200, train_loss: 4.4787, train_perplexity: 90.9015
+
+24-05-2022 13:13  - epoch: 17 / 200
+24-05-2022 13:15  - epoch: 17 / 200, train_loss: 4.3586, train_perplexity: 81.1442
+
+24-05-2022 13:15  - epoch: 18 / 200
+24-05-2022 13:17  - epoch: 18 / 200, train_loss: 4.2651, train_perplexity: 73.5158
+
+24-05-2022 13:17  - epoch: 19 / 200
+24-05-2022 13:20  - epoch: 19 / 200, train_loss: 4.1749, train_perplexity: 67.1331
+
+24-05-2022 13:20  - epoch: 20 / 200
+24-05-2022 13:22  - epoch: 20 / 200, train_loss: 4.0817, train_perplexity: 61.0697
+
+24-05-2022 13:22  - epoch: 21 / 200
+24-05-2022 13:24  - epoch: 21 / 200, train_loss: 3.9952, train_perplexity: 56.2033
+
+24-05-2022 13:24  - epoch: 22 / 200
+24-05-2022 13:26  - epoch: 22 / 200, train_loss: 3.9238, train_perplexity: 51.9265
+
+24-05-2022 13:26  - epoch: 23 / 200
+24-05-2022 13:29  - epoch: 23 / 200, train_loss: 3.8447, train_perplexity: 48.1526
+
+24-05-2022 13:29  - epoch: 24 / 200
+24-05-2022 13:31  - epoch: 24 / 200, train_loss: 3.7626, train_perplexity: 44.3269
+
+24-05-2022 13:31  - epoch: 25 / 200
+24-05-2022 13:33  - epoch: 25 / 200, train_loss: 3.6913, train_perplexity: 41.2285
+
+24-05-2022 13:33  - epoch: 26 / 200
+24-05-2022 13:35  - epoch: 26 / 200, train_loss: 3.6207, train_perplexity: 38.5202
+
+24-05-2022 13:35  - epoch: 27 / 200
+24-05-2022 13:38  - epoch: 27 / 200, train_loss: 3.5592, train_perplexity: 36.1747
+
+24-05-2022 13:38  - epoch: 28 / 200
+24-05-2022 13:40  - epoch: 28 / 200, train_loss: 3.4893, train_perplexity: 33.7108
+
+24-05-2022 13:40  - epoch: 29 / 200
+24-05-2022 13:42  - epoch: 29 / 200, train_loss: 3.4234, train_perplexity: 31.5651
+
+24-05-2022 13:42  - epoch: 30 / 200
+24-05-2022 13:44  - epoch: 30 / 200, train_loss: 3.3503, train_perplexity: 29.4144
+
+24-05-2022 13:44  - epoch: 31 / 200
+24-05-2022 13:47  - epoch: 31 / 200, train_loss: 3.2992, train_perplexity: 27.8488
+
+24-05-2022 13:47  - epoch: 32 / 200
+24-05-2022 13:49  - epoch: 32 / 200, train_loss: 3.2446, train_perplexity: 26.3513
+
+24-05-2022 13:49  - epoch: 33 / 200
+24-05-2022 13:51  - epoch: 33 / 200, train_loss: 3.1806, train_perplexity: 24.8121
+
+24-05-2022 13:51  - epoch: 34 / 200
+24-05-2022 13:53  - epoch: 34 / 200, train_loss: 3.1277, train_perplexity: 23.5313
+
+24-05-2022 13:53  - epoch: 35 / 200
+24-05-2022 13:56  - epoch: 35 / 200, train_loss: 3.0729, train_perplexity: 22.2504
+
+24-05-2022 13:56  - epoch: 36 / 200
+24-05-2022 13:58  - epoch: 36 / 200, train_loss: 3.0123, train_perplexity: 20.9412
+
+24-05-2022 13:58  - epoch: 37 / 200
+24-05-2022 14:00  - epoch: 37 / 200, train_loss: 2.9655, train_perplexity: 19.9283
+
+24-05-2022 14:00  - epoch: 38 / 200
+24-05-2022 14:02  - epoch: 38 / 200, train_loss: 2.9163, train_perplexity: 18.9764
+
+24-05-2022 14:02  - epoch: 39 / 200
+24-05-2022 14:05  - epoch: 39 / 200, train_loss: 2.8614, train_perplexity: 18.0082
+
+24-05-2022 14:05  - epoch: 40 / 200
+24-05-2022 14:07  - epoch: 40 / 200, train_loss: 2.8064, train_perplexity: 17.0253
+
+24-05-2022 14:07  - epoch: 41 / 200
+24-05-2022 14:09  - epoch: 41 / 200, train_loss: 2.7631, train_perplexity: 16.2583
+
+24-05-2022 14:09  - epoch: 42 / 200
+24-05-2022 14:11  - epoch: 42 / 200, train_loss: 2.7058, train_perplexity: 15.3894
+
+24-05-2022 14:11  - epoch: 43 / 200
+24-05-2022 14:14  - epoch: 43 / 200, train_loss: 2.6649, train_perplexity: 14.7085
+
+24-05-2022 14:14  - epoch: 44 / 200
+24-05-2022 14:16  - epoch: 44 / 200, train_loss: 2.6140, train_perplexity: 13.9884
+
+24-05-2022 14:16  - epoch: 45 / 200
+24-05-2022 14:18  - epoch: 45 / 200, train_loss: 2.5650, train_perplexity: 13.3549
+
+24-05-2022 14:18  - epoch: 46 / 200
+24-05-2022 14:20  - epoch: 46 / 200, train_loss: 2.5233, train_perplexity: 12.7743
+
+24-05-2022 14:20  - epoch: 47 / 200
+24-05-2022 14:23  - epoch: 47 / 200, train_loss: 2.4715, train_perplexity: 12.1631
+
+24-05-2022 14:23  - epoch: 48 / 200
+24-05-2022 14:25  - epoch: 48 / 200, train_loss: 2.4260, train_perplexity: 11.6170
+
+24-05-2022 14:25  - epoch: 49 / 200
+24-05-2022 14:27  - epoch: 49 / 200, train_loss: 2.3819, train_perplexity: 11.1107
+
+24-05-2022 14:27  - epoch: 50 / 200
+24-05-2022 14:29  - epoch: 50 / 200, train_loss: 2.3418, train_perplexity: 10.6586
+
+24-05-2022 14:29  - epoch: 51 / 200
+24-05-2022 14:32  - epoch: 51 / 200, train_loss: 2.3050, train_perplexity: 10.2604
+
+24-05-2022 14:32  - epoch: 52 / 200
+24-05-2022 14:34  - epoch: 52 / 200, train_loss: 2.2529, train_perplexity: 9.7365
+
+24-05-2022 14:34  - epoch: 53 / 200
+24-05-2022 14:36  - epoch: 53 / 200, train_loss: 2.2094, train_perplexity: 9.3411
+
+24-05-2022 14:36  - epoch: 54 / 200
+24-05-2022 14:38  - epoch: 54 / 200, train_loss: 2.1840, train_perplexity: 9.0764
+
+24-05-2022 14:38  - epoch: 55 / 200
+24-05-2022 14:41  - epoch: 55 / 200, train_loss: 2.1236, train_perplexity: 8.5587
+
+24-05-2022 14:41  - epoch: 56 / 200
+24-05-2022 14:43  - epoch: 56 / 200, train_loss: 2.0928, train_perplexity: 8.2882
+
+24-05-2022 14:43  - epoch: 57 / 200
+24-05-2022 14:45  - epoch: 57 / 200, train_loss: 2.0460, train_perplexity: 7.9095
+
+24-05-2022 14:45  - epoch: 58 / 200
+24-05-2022 14:47  - epoch: 58 / 200, train_loss: 1.9973, train_perplexity: 7.5360
+
+24-05-2022 14:47  - epoch: 59 / 200
+24-05-2022 14:50  - epoch: 59 / 200, train_loss: 1.9636, train_perplexity: 7.2922
+
+24-05-2022 14:50  - epoch: 60 / 200
+24-05-2022 14:52  - epoch: 60 / 200, train_loss: 1.9390, train_perplexity: 7.0895
+
+24-05-2022 14:52  - epoch: 61 / 200
+24-05-2022 14:54  - epoch: 61 / 200, train_loss: 1.8998, train_perplexity: 6.8160
+
+24-05-2022 14:54  - epoch: 62 / 200
+24-05-2022 14:56  - epoch: 62 / 200, train_loss: 1.8559, train_perplexity: 6.5175
+
+24-05-2022 14:56  - epoch: 63 / 200
+24-05-2022 14:59  - epoch: 63 / 200, train_loss: 1.8196, train_perplexity: 6.2926
+
+24-05-2022 14:59  - epoch: 64 / 200
+24-05-2022 15:01  - epoch: 64 / 200, train_loss: 1.7855, train_perplexity: 6.0669
+
+24-05-2022 15:01  - epoch: 65 / 200
+24-05-2022 15:03  - epoch: 65 / 200, train_loss: 1.7387, train_perplexity: 5.7870
+
+24-05-2022 15:03  - epoch: 66 / 200
+24-05-2022 15:05  - epoch: 66 / 200, train_loss: 1.7085, train_perplexity: 5.6221
+
+24-05-2022 15:05  - epoch: 67 / 200
+24-05-2022 15:08  - epoch: 67 / 200, train_loss: 1.6769, train_perplexity: 5.4617
+
+24-05-2022 15:08  - epoch: 68 / 200
+24-05-2022 15:10  - epoch: 68 / 200, train_loss: 1.6432, train_perplexity: 5.2518
+
+24-05-2022 15:10  - epoch: 69 / 200
+24-05-2022 15:12  - epoch: 69 / 200, train_loss: 1.6079, train_perplexity: 5.0817
+
+24-05-2022 15:12  - epoch: 70 / 200
+24-05-2022 15:14  - epoch: 70 / 200, train_loss: 1.5628, train_perplexity: 4.8456
+
+24-05-2022 15:14  - epoch: 71 / 200
+24-05-2022 15:17  - epoch: 71 / 200, train_loss: 1.5343, train_perplexity: 4.7081
+
+24-05-2022 15:17  - epoch: 72 / 200
+24-05-2022 15:19  - epoch: 72 / 200, train_loss: 1.4983, train_perplexity: 4.5494
+
+24-05-2022 15:19  - epoch: 73 / 200
+24-05-2022 15:21  - epoch: 73 / 200, train_loss: 1.4644, train_perplexity: 4.3880
+
+24-05-2022 15:21  - epoch: 74 / 200
+24-05-2022 15:23  - epoch: 74 / 200, train_loss: 1.4566, train_perplexity: 4.3570
+
+24-05-2022 15:23  - epoch: 75 / 200
+24-05-2022 15:26  - epoch: 75 / 200, train_loss: 1.3977, train_perplexity: 4.0997
+
+24-05-2022 15:26  - epoch: 76 / 200
+24-05-2022 15:28  - epoch: 76 / 200, train_loss: 1.3776, train_perplexity: 4.0186
+
+24-05-2022 15:28  - epoch: 77 / 200
+24-05-2022 15:30  - epoch: 77 / 200, train_loss: 1.3455, train_perplexity: 3.8909
+
+24-05-2022 15:30  - epoch: 78 / 200
+24-05-2022 15:32  - epoch: 78 / 200, train_loss: 1.3217, train_perplexity: 3.7940
+
+24-05-2022 15:32  - epoch: 79 / 200
+24-05-2022 15:35  - epoch: 79 / 200, train_loss: 1.3010, train_perplexity: 3.7192
+
+24-05-2022 15:35  - epoch: 80 / 200
+24-05-2022 15:37  - epoch: 80 / 200, train_loss: 1.2548, train_perplexity: 3.5481
+
+24-05-2022 15:37  - epoch: 81 / 200
+24-05-2022 15:39  - epoch: 81 / 200, train_loss: 1.2088, train_perplexity: 3.3919
+
+24-05-2022 15:39  - epoch: 82 / 200
+24-05-2022 15:41  - epoch: 82 / 200, train_loss: 1.1826, train_perplexity: 3.2999
+
+24-05-2022 15:41  - epoch: 83 / 200
+24-05-2022 15:44  - epoch: 83 / 200, train_loss: 1.1504, train_perplexity: 3.1910
+
+24-05-2022 15:44  - epoch: 84 / 200
+24-05-2022 15:46  - epoch: 84 / 200, train_loss: 1.1221, train_perplexity: 3.0972
+
+24-05-2022 15:46  - epoch: 85 / 200
+24-05-2022 15:48  - epoch: 85 / 200, train_loss: 1.0997, train_perplexity: 3.0310
+
+24-05-2022 15:48  - epoch: 86 / 200
+24-05-2022 15:50  - epoch: 86 / 200, train_loss: 1.0864, train_perplexity: 2.9945
+
+24-05-2022 15:50  - epoch: 87 / 200
+24-05-2022 15:53  - epoch: 87 / 200, train_loss: 1.0645, train_perplexity: 2.9250
+
+24-05-2022 15:53  - epoch: 88 / 200
+24-05-2022 15:55  - epoch: 88 / 200, train_loss: 1.0263, train_perplexity: 2.8164
+
+24-05-2022 15:55  - epoch: 89 / 200
+24-05-2022 15:57  - epoch: 89 / 200, train_loss: 0.9993, train_perplexity: 2.7403
+
+24-05-2022 15:57  - epoch: 90 / 200
+24-05-2022 15:59  - epoch: 90 / 200, train_loss: 0.9613, train_perplexity: 2.6357
+
+24-05-2022 15:59  - epoch: 91 / 200
+24-05-2022 16:02  - epoch: 91 / 200, train_loss: 0.9293, train_perplexity: 2.5533
+
+24-05-2022 16:02  - epoch: 92 / 200
+24-05-2022 16:04  - epoch: 92 / 200, train_loss: 0.9072, train_perplexity: 2.4967
+
+24-05-2022 16:04  - epoch: 93 / 200
+24-05-2022 16:06  - epoch: 93 / 200, train_loss: 0.8804, train_perplexity: 2.4273
+
+24-05-2022 16:06  - epoch: 94 / 200
+24-05-2022 16:08  - epoch: 94 / 200, train_loss: 0.8642, train_perplexity: 2.3904
+
+24-05-2022 16:08  - epoch: 95 / 200
+24-05-2022 16:11  - epoch: 95 / 200, train_loss: 0.8433, train_perplexity: 2.3392
+
+24-05-2022 16:11  - epoch: 96 / 200
+24-05-2022 16:13  - epoch: 96 / 200, train_loss: 0.8194, train_perplexity: 2.2825
+
+24-05-2022 16:13  - epoch: 97 / 200
+24-05-2022 16:15  - epoch: 97 / 200, train_loss: 0.8108, train_perplexity: 2.2630
+
+24-05-2022 16:15  - epoch: 98 / 200
+24-05-2022 16:17  - epoch: 98 / 200, train_loss: 0.7661, train_perplexity: 2.1640
+
+24-05-2022 16:17  - epoch: 99 / 200
+24-05-2022 16:20  - epoch: 99 / 200, train_loss: 0.7370, train_perplexity: 2.1000
+
+24-05-2022 16:20  - epoch: 100 / 200
+24-05-2022 16:22  - epoch: 100 / 200, train_loss: 0.7154, train_perplexity: 2.0550
+
+24-05-2022 16:22  - epoch: 101 / 200
+24-05-2022 16:24  - epoch: 101 / 200, train_loss: 0.6845, train_perplexity: 1.9920
+
+24-05-2022 16:24  - epoch: 102 / 200
+24-05-2022 16:26  - epoch: 102 / 200, train_loss: 0.6496, train_perplexity: 1.9229
+
+24-05-2022 16:26  - epoch: 103 / 200
+24-05-2022 16:29  - epoch: 103 / 200, train_loss: 0.6471, train_perplexity: 1.9182
+
+24-05-2022 16:29  - epoch: 104 / 200
+24-05-2022 16:31  - epoch: 104 / 200, train_loss: 0.6311, train_perplexity: 1.8871
+
+24-05-2022 16:31  - epoch: 105 / 200
+24-05-2022 16:33  - epoch: 105 / 200, train_loss: 0.6171, train_perplexity: 1.8603
+
+24-05-2022 16:33  - epoch: 106 / 200
+24-05-2022 16:35  - epoch: 106 / 200, train_loss: 0.6247, train_perplexity: 1.8746
+
+24-05-2022 16:35  - epoch: 107 / 200
+24-05-2022 16:38  - epoch: 107 / 200, train_loss: 0.5894, train_perplexity: 1.8089
+
+24-05-2022 16:38  - epoch: 108 / 200
+24-05-2022 16:40  - epoch: 108 / 200, train_loss: 0.5644, train_perplexity: 1.7638
+
+24-05-2022 16:40  - epoch: 109 / 200
+24-05-2022 16:42  - epoch: 109 / 200, train_loss: 0.5351, train_perplexity: 1.7127
+
+24-05-2022 16:42  - epoch: 110 / 200
+24-05-2022 16:44  - epoch: 110 / 200, train_loss: 0.5458, train_perplexity: 1.7311
+
+24-05-2022 16:44  - epoch: 111 / 200
+24-05-2022 16:47  - epoch: 111 / 200, train_loss: 0.5170, train_perplexity: 1.6814
+
+24-05-2022 16:47  - epoch: 112 / 200
+24-05-2022 16:49  - epoch: 112 / 200, train_loss: 0.4952, train_perplexity: 1.6450
+
+24-05-2022 16:49  - epoch: 113 / 200
+24-05-2022 16:51  - epoch: 113 / 200, train_loss: 0.4790, train_perplexity: 1.6181
+
+24-05-2022 16:51  - epoch: 114 / 200
+24-05-2022 16:53  - epoch: 114 / 200, train_loss: 0.4551, train_perplexity: 1.5794
+
+24-05-2022 16:53  - epoch: 115 / 200
+24-05-2022 16:56  - epoch: 115 / 200, train_loss: 0.4654, train_perplexity: 1.5959
+
+24-05-2022 16:56  - epoch: 116 / 200
+24-05-2022 16:58  - epoch: 116 / 200, train_loss: 0.4324, train_perplexity: 1.5438
+
+24-05-2022 16:58  - epoch: 117 / 200
+24-05-2022 17:00  - epoch: 117 / 200, train_loss: 0.4168, train_perplexity: 1.5199
+
+24-05-2022 17:00  - epoch: 118 / 200
+24-05-2022 17:02  - epoch: 118 / 200, train_loss: 0.4079, train_perplexity: 1.5061
+
+24-05-2022 17:02  - epoch: 119 / 200
+24-05-2022 17:05  - epoch: 119 / 200, train_loss: 0.3914, train_perplexity: 1.4813
+
+24-05-2022 17:05  - epoch: 120 / 200
+24-05-2022 17:07  - epoch: 120 / 200, train_loss: 0.3704, train_perplexity: 1.4501
+
+24-05-2022 17:07  - epoch: 121 / 200
+24-05-2022 17:09  - epoch: 121 / 200, train_loss: 0.3631, train_perplexity: 1.4397
+
+24-05-2022 17:09  - epoch: 122 / 200
+24-05-2022 17:11  - epoch: 122 / 200, train_loss: 0.3570, train_perplexity: 1.4309
+
+24-05-2022 17:11  - epoch: 123 / 200
+24-05-2022 17:14  - epoch: 123 / 200, train_loss: 0.3562, train_perplexity: 1.4297
+
+24-05-2022 17:14  - epoch: 124 / 200
+24-05-2022 17:16  - epoch: 124 / 200, train_loss: 0.3573, train_perplexity: 1.4309
+
+24-05-2022 17:16  - epoch: 125 / 200
+24-05-2022 17:18  - epoch: 125 / 200, train_loss: 0.3445, train_perplexity: 1.4127
+
+24-05-2022 17:18  - epoch: 126 / 200
+24-05-2022 17:20  - epoch: 126 / 200, train_loss: 0.3329, train_perplexity: 1.3964
+
+24-05-2022 17:20  - epoch: 127 / 200
+24-05-2022 17:23  - epoch: 127 / 200, train_loss: 0.3233, train_perplexity: 1.3830
+
+24-05-2022 17:23  - epoch: 128 / 200
+24-05-2022 17:25  - epoch: 128 / 200, train_loss: 0.3093, train_perplexity: 1.3636
+
+24-05-2022 17:25  - epoch: 129 / 200
+24-05-2022 17:27  - epoch: 129 / 200, train_loss: 0.3068, train_perplexity: 1.3602
+
+24-05-2022 17:27  - epoch: 130 / 200
+24-05-2022 17:29  - epoch: 130 / 200, train_loss: 0.2902, train_perplexity: 1.3377
+
+24-05-2022 17:29  - epoch: 131 / 200
+24-05-2022 17:32  - epoch: 131 / 200, train_loss: 0.2806, train_perplexity: 1.3248
+
+24-05-2022 17:32  - epoch: 132 / 200
+24-05-2022 17:34  - epoch: 132 / 200, train_loss: 0.2643, train_perplexity: 1.3032
+
+24-05-2022 17:34  - epoch: 133 / 200
+24-05-2022 17:36  - epoch: 133 / 200, train_loss: 0.2413, train_perplexity: 1.2736
+
+24-05-2022 17:36  - epoch: 134 / 200
+24-05-2022 17:38  - epoch: 134 / 200, train_loss: 0.2647, train_perplexity: 1.3040
+
+24-05-2022 17:38  - epoch: 135 / 200
+24-05-2022 17:41  - epoch: 135 / 200, train_loss: 0.2711, train_perplexity: 1.3120
+
+24-05-2022 17:41  - epoch: 136 / 200
+24-05-2022 17:43  - epoch: 136 / 200, train_loss: 0.2682, train_perplexity: 1.3084
+
+24-05-2022 17:43  - epoch: 137 / 200
+24-05-2022 17:45  - epoch: 137 / 200, train_loss: 0.2841, train_perplexity: 1.3295
+
+24-05-2022 17:45  - epoch: 138 / 200
+24-05-2022 17:47  - epoch: 138 / 200, train_loss: 0.2723, train_perplexity: 1.3137
+
+24-05-2022 17:47  - epoch: 139 / 200
+24-05-2022 17:50  - epoch: 139 / 200, train_loss: 0.2723, train_perplexity: 1.3137
+
+24-05-2022 17:50  - epoch: 140 / 200
+24-05-2022 17:52  - epoch: 140 / 200, train_loss: 0.2485, train_perplexity: 1.2827
+
+24-05-2022 17:52  - epoch: 141 / 200
+24-05-2022 17:54  - epoch: 141 / 200, train_loss: 0.2208, train_perplexity: 1.2475
+
+24-05-2022 17:54  - epoch: 142 / 200
+24-05-2022 17:57  - epoch: 142 / 200, train_loss: 0.1954, train_perplexity: 1.2162
+
+24-05-2022 17:57  - epoch: 143 / 200
+24-05-2022 17:59  - epoch: 143 / 200, train_loss: 0.1780, train_perplexity: 1.1951
+
+24-05-2022 17:59  - epoch: 144 / 200
+24-05-2022 18:01  - epoch: 144 / 200, train_loss: 0.1683, train_perplexity: 1.1835
+
+24-05-2022 18:01  - epoch: 145 / 200
+24-05-2022 18:03  - epoch: 145 / 200, train_loss: 0.1503, train_perplexity: 1.1624
+
+24-05-2022 18:03  - epoch: 146 / 200
+24-05-2022 18:05  - epoch: 146 / 200, train_loss: 0.1488, train_perplexity: 1.1608
+
+24-05-2022 18:05  - epoch: 147 / 200
+24-05-2022 18:08  - epoch: 147 / 200, train_loss: 0.1520, train_perplexity: 1.1644
+
+24-05-2022 18:08  - epoch: 148 / 200
+24-05-2022 18:10  - epoch: 148 / 200, train_loss: 0.1620, train_perplexity: 1.1762
+
+24-05-2022 18:10  - epoch: 149 / 200
+24-05-2022 18:12  - epoch: 149 / 200, train_loss: 0.2165, train_perplexity: 1.2435
+
+24-05-2022 18:12  - epoch: 150 / 200
+24-05-2022 18:14  - epoch: 150 / 200, train_loss: 0.3501, train_perplexity: 1.4226
+
+24-05-2022 18:14  - epoch: 151 / 200
+24-05-2022 18:17  - epoch: 151 / 200, train_loss: 0.4644, train_perplexity: 1.5952
+
+24-05-2022 18:17  - epoch: 152 / 200
+24-05-2022 18:19  - epoch: 152 / 200, train_loss: 0.4799, train_perplexity: 1.6185
+
+24-05-2022 18:19  - epoch: 153 / 200
+24-05-2022 18:21  - epoch: 153 / 200, train_loss: 0.3696, train_perplexity: 1.4493
+
+24-05-2022 18:21  - epoch: 154 / 200
+24-05-2022 18:23  - epoch: 154 / 200, train_loss: 0.2378, train_perplexity: 1.2691
+
+24-05-2022 18:23  - epoch: 155 / 200
+24-05-2022 18:26  - epoch: 155 / 200, train_loss: 0.1667, train_perplexity: 1.1816
+
+24-05-2022 18:26  - epoch: 156 / 200
+24-05-2022 18:28  - epoch: 156 / 200, train_loss: 0.1321, train_perplexity: 1.1414
+
+24-05-2022 18:28  - epoch: 157 / 200
+24-05-2022 18:30  - epoch: 157 / 200, train_loss: 0.1072, train_perplexity: 1.1133
+
+24-05-2022 18:30  - epoch: 158 / 200
+24-05-2022 18:32  - epoch: 158 / 200, train_loss: 0.0949, train_perplexity: 1.0997
+
+24-05-2022 18:32  - epoch: 159 / 200
+24-05-2022 18:35  - epoch: 159 / 200, train_loss: 0.0902, train_perplexity: 1.0946
+
+24-05-2022 18:35  - epoch: 160 / 200
+24-05-2022 18:37  - epoch: 160 / 200, train_loss: 0.0861, train_perplexity: 1.0901
+
+24-05-2022 18:37  - epoch: 161 / 200
+24-05-2022 18:39  - epoch: 161 / 200, train_loss: 0.0831, train_perplexity: 1.0867
+
+24-05-2022 18:39  - epoch: 162 / 200
+24-05-2022 18:41  - epoch: 162 / 200, train_loss: 0.0821, train_perplexity: 1.0856
+
+24-05-2022 18:41  - epoch: 163 / 200
+24-05-2022 18:44  - epoch: 163 / 200, train_loss: 0.0849, train_perplexity: 1.0888
+
+24-05-2022 18:44  - epoch: 164 / 200
+24-05-2022 18:46  - epoch: 164 / 200, train_loss: 0.0912, train_perplexity: 1.0957
+
+24-05-2022 18:46  - epoch: 165 / 200
+24-05-2022 18:48  - epoch: 165 / 200, train_loss: 0.0942, train_perplexity: 1.0990
+
+24-05-2022 18:48  - epoch: 166 / 200
+24-05-2022 18:50  - epoch: 166 / 200, train_loss: 0.1107, train_perplexity: 1.1175
+
+24-05-2022 18:50  - epoch: 167 / 200
+24-05-2022 18:53  - epoch: 167 / 200, train_loss: 0.1309, train_perplexity: 1.1401
+
+24-05-2022 18:53  - epoch: 168 / 200
+24-05-2022 18:55  - epoch: 168 / 200, train_loss: 0.2102, train_perplexity: 1.2367
+
+24-05-2022 18:55  - epoch: 169 / 200
+24-05-2022 18:57  - epoch: 169 / 200, train_loss: 0.5707, train_perplexity: 1.7943
+
+24-05-2022 18:57  - epoch: 170 / 200
+24-05-2022 18:59  - epoch: 170 / 200, train_loss: 0.7155, train_perplexity: 2.0583
+
+24-05-2022 18:59  - epoch: 171 / 200
+24-05-2022 19:02  - epoch: 171 / 200, train_loss: 0.4085, train_perplexity: 1.5074
+
+24-05-2022 19:02  - epoch: 172 / 200
+24-05-2022 19:04  - epoch: 172 / 200, train_loss: 0.2512, train_perplexity: 1.2863
+
+24-05-2022 19:04  - epoch: 173 / 200
+24-05-2022 19:06  - epoch: 173 / 200, train_loss: 0.1703, train_perplexity: 1.1860
+
+24-05-2022 19:06  - epoch: 174 / 200
+24-05-2022 19:09  - epoch: 174 / 200, train_loss: 0.1217, train_perplexity: 1.1296
+
+24-05-2022 19:09  - epoch: 175 / 200
+24-05-2022 19:11  - epoch: 175 / 200, train_loss: 0.0965, train_perplexity: 1.1015
+
+24-05-2022 19:11  - epoch: 176 / 200
+24-05-2022 19:13  - epoch: 176 / 200, train_loss: 0.0845, train_perplexity: 1.0883
+
+24-05-2022 19:13  - epoch: 177 / 200
+24-05-2022 19:15  - epoch: 177 / 200, train_loss: 0.0793, train_perplexity: 1.0826
+
+24-05-2022 19:15  - epoch: 178 / 200
+24-05-2022 19:18  - epoch: 178 / 200, train_loss: 0.0762, train_perplexity: 1.0794
+
+24-05-2022 19:18  - epoch: 179 / 200
+24-05-2022 19:20  - epoch: 179 / 200, train_loss: 0.0737, train_perplexity: 1.0767
+
+24-05-2022 19:20  - epoch: 180 / 200
+24-05-2022 19:22  - epoch: 180 / 200, train_loss: 0.0715, train_perplexity: 1.0743
+
+24-05-2022 19:22  - epoch: 181 / 200
+24-05-2022 19:24  - epoch: 181 / 200, train_loss: 0.0719, train_perplexity: 1.0747
+
+24-05-2022 19:24  - epoch: 182 / 200
+24-05-2022 19:27  - epoch: 182 / 200, train_loss: 0.0743, train_perplexity: 1.0773
+
+24-05-2022 19:27  - epoch: 183 / 200
+24-05-2022 19:29  - epoch: 183 / 200, train_loss: 0.0746, train_perplexity: 1.0776
+
+24-05-2022 19:29  - epoch: 184 / 200
+24-05-2022 19:31  - epoch: 184 / 200, train_loss: 0.0785, train_perplexity: 1.0818
+
+24-05-2022 19:31  - epoch: 185 / 200
+24-05-2022 19:33  - epoch: 185 / 200, train_loss: 0.0839, train_perplexity: 1.0877
+
+24-05-2022 19:33  - epoch: 186 / 200
+24-05-2022 19:36  - epoch: 186 / 200, train_loss: 0.0838, train_perplexity: 1.0876
+
+24-05-2022 19:36  - epoch: 187 / 200
+24-05-2022 19:38  - epoch: 187 / 200, train_loss: 0.0879, train_perplexity: 1.0920
+
+24-05-2022 19:38  - epoch: 188 / 200
+24-05-2022 19:40  - epoch: 188 / 200, train_loss: 0.1106, train_perplexity: 1.1173
+
+24-05-2022 19:40  - epoch: 189 / 200
+24-05-2022 19:42  - epoch: 189 / 200, train_loss: 0.1964, train_perplexity: 1.2196
+
+24-05-2022 19:42  - epoch: 190 / 200
+24-05-2022 19:45  - epoch: 190 / 200, train_loss: 0.6512, train_perplexity: 1.9535
+
+24-05-2022 19:45  - epoch: 191 / 200
+24-05-2022 19:47  - epoch: 191 / 200, train_loss: 0.6659, train_perplexity: 1.9543
+
+24-05-2022 19:47  - epoch: 192 / 200
+24-05-2022 19:49  - epoch: 192 / 200, train_loss: 0.3698, train_perplexity: 1.4501
+
+24-05-2022 19:49  - epoch: 193 / 200
+24-05-2022 19:51  - epoch: 193 / 200, train_loss: 0.2096, train_perplexity: 1.2338
+
+24-05-2022 19:51  - epoch: 194 / 200
+24-05-2022 19:54  - epoch: 194 / 200, train_loss: 0.1294, train_perplexity: 1.1383
+
+24-05-2022 19:54  - epoch: 195 / 200
+24-05-2022 19:56  - epoch: 195 / 200, train_loss: 0.0966, train_perplexity: 1.1015
+
+24-05-2022 19:56  - epoch: 196 / 200
+24-05-2022 19:58  - epoch: 196 / 200, train_loss: 0.0807, train_perplexity: 1.0841
+
+24-05-2022 19:58  - epoch: 197 / 200
+24-05-2022 20:00  - epoch: 197 / 200, train_loss: 0.0753, train_perplexity: 1.0784
+
+24-05-2022 20:00  - epoch: 198 / 200
+24-05-2022 20:03  - epoch: 198 / 200, train_loss: 0.0721, train_perplexity: 1.0748
+
+24-05-2022 20:03  - epoch: 199 / 200
+24-05-2022 20:05  - epoch: 199 / 200, train_loss: 0.0693, train_perplexity: 1.0719
+
+24-05-2022 20:05  - epoch: 200 / 200
+24-05-2022 20:07  - epoch: 200 / 200, train_loss: 0.0673, train_perplexity: 1.0698
+

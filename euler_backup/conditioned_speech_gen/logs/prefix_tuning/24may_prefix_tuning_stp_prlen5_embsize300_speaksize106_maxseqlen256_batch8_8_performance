@@ -1,0 +1,7 @@
+24-05-2022 21:25  - cfg: {'model': 'prefix_tuning', 'experiment_name': '24may_prefix_tuning_stp_prlen5_embsize300_speaksize106_maxseqlen256_batch8_8', 'data_path': '/cluster/scratch/goezsoy/nlp_lss_datasets', 'log_dir': '../logs', 'checkpoint_dir': '/cluster/scratch/goezsoy/nlp_lss_checkpoints', 'epochs': 200, 'max_seq_len': 256, 'batch_size': 8, 'gradient_accumulations': 8, 'learning_rate': 0.0001, 'print_iter_freq': 500, 'prefix_len': 5, 'embed_size_per_token': 300, 'speaker_size': 106, 'freeze_gpt': False, 'encoded': 'encoded_st_p_ids'}
+24-05-2022 21:25  - Using device: cuda:0
+24-05-2022 21:37  - train data loaded.
+24-05-2022 21:38  - valid data loaded.
+
+24-05-2022 21:39  - epoch: 1 / 200
+24-05-2022 21:55  - iter: 500 / 2898, iter_loss: 6.4178, iter_perplexity: 631.3492

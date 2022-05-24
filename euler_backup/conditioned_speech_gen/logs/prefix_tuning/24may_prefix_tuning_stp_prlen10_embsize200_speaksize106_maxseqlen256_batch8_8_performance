@@ -1,0 +1,18 @@
+24-05-2022 18:47  - cfg: {'model': 'prefix_tuning', 'experiment_name': '24may_prefix_tuning_stp_prlen10_embsize200_speaksize106_maxseqlen256_batch8_8', 'data_path': '/cluster/scratch/goezsoy/nlp_lss_datasets', 'log_dir': '../logs', 'checkpoint_dir': '/cluster/scratch/goezsoy/nlp_lss_checkpoints', 'epochs': 200, 'max_seq_len': 256, 'batch_size': 8, 'gradient_accumulations': 8, 'learning_rate': 0.0001, 'print_iter_freq': 500, 'prefix_len': 10, 'embed_size_per_token': 200, 'speaker_size': 106, 'freeze_gpt': False, 'encoded': 'encoded_st_p_ids'}
+24-05-2022 18:47  - Using device: cuda:0
+24-05-2022 18:56  - train data loaded.
+24-05-2022 18:57  - valid data loaded.
+
+24-05-2022 18:57  - epoch: 1 / 200
+24-05-2022 19:15  - iter: 500 / 2898, iter_loss: 6.3812, iter_perplexity: 592.9969
+24-05-2022 19:33  - iter: 1000 / 2898, iter_loss: 5.8080, iter_perplexity: 344.0141
+24-05-2022 19:50  - iter: 1500 / 2898, iter_loss: 4.9379, iter_perplexity: 142.8747
+24-05-2022 20:08  - iter: 2000 / 2898, iter_loss: 4.3005, iter_perplexity: 79.8321
+24-05-2022 20:26  - iter: 2500 / 2898, iter_loss: 3.9672, iter_perplexity: 54.8789
+24-05-2022 20:40  - epoch: 1 / 200, train_loss: 5.1794, train_perplexity: 3443.9368
+
+24-05-2022 20:40  - epoch: 2 / 200
+24-05-2022 20:57  - iter: 500 / 2898, iter_loss: 3.6985, iter_perplexity: 41.1418
+24-05-2022 21:15  - iter: 1000 / 2898, iter_loss: 2.9860, iter_perplexity: 20.4613
+24-05-2022 21:33  - iter: 1500 / 2898, iter_loss: 2.7674, iter_perplexity: 17.0559
+24-05-2022 21:50  - iter: 2000 / 2898, iter_loss: 2.4948, iter_perplexity: 12.2862
