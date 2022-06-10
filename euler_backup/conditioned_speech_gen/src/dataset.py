@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from datasets import Dataset
 from transformers import DataCollatorWithPadding
-from transformers import GPT2Tokenizer
+from transformers import GPT2Tokenizer, BertTokenizerFast
 
 
 def get_data(cfg, split=0):
@@ -19,10 +19,16 @@ def get_data(cfg, split=0):
 
     # TEMPORARY: work on subset of speakers
     #processed_df = processed_df[processed_df['encoded_bioguide_ids'].isin(list(np.arange(0,cfg['speaker_size'])))]
+    #processed_df = processed_df.iloc[:2000]
 
     # dataset creation and formating
-    tokenizer = GPT2Tokenizer.from_pretrained("EleutherAI/gpt-neo-125M")
-    tokenizer.pad_token = tokenizer.eos_token
+    if cfg['model'] == 'prefix_tuning' or cfg['model'] == 'speaker_prompt':
+        tokenizer = GPT2Tokenizer.from_pretrained("EleutherAI/gpt-neo-125M")
+        tokenizer.pad_token = tokenizer.eos_token
+    elif cfg['model'] == 'bert_vae':
+        tokenizer = BertTokenizerFast.from_pretrained('bert-base-cased')
+    else:
+        raise NotImplementedError()
 
     dataset = Dataset.from_pandas(processed_df)
 
@@ -30,14 +36,14 @@ def get_data(cfg, split=0):
     def tokenize_function(row):
         if cfg['model'] == 'speaker_prompt':
             return {**tokenizer('The following is a speech by '+ row['first_name'] + ' ' + row['last_name'] + '.' + row['speech'],truncation=True,max_length=cfg['max_seq_len'])}
-        elif cfg['model'] == 'prefix_tuning':
+        elif cfg['model'] == 'prefix_tuning' or cfg['model'] == 'bert_vae':
             return {**tokenizer(row['speech'],truncation=True,max_length=cfg['max_seq_len'])}
         else:
             raise NotImplementedError()
 
     dataset = dataset.map(tokenize_function, batched=False) # change batched = True
 
-    if cfg['model'] == 'speaker_prompt':
+    if cfg['model'] == 'speaker_prompt' or cfg['model'] == 'bert_vae':
         included_cols = ['input_ids', 'attention_mask']
     elif cfg['model'] == 'prefix_tuning':
         included_cols = [cfg['encoded'],'input_ids', 'attention_mask']

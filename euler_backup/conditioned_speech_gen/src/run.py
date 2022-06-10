@@ -8,6 +8,7 @@ import torch
 
 import train_prefix_tuning
 import train_speaker_prompt
+import train_bert_vae
 
 if __name__ == '__main__':
 
@@ -48,5 +49,7 @@ if __name__ == '__main__':
         train_speaker_prompt.train(cfg, device)
     elif cfg['model']=='prefix_tuning':
         train_prefix_tuning.train(cfg,device,performance_logger)
+    elif cfg['model']=='bert_vae':
+        train_bert_vae.train(cfg,device,performance_logger)
     else:
         raise NotImplementedError()

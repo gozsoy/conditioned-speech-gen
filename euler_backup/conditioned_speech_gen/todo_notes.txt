@@ -1,14 +1,6 @@
 ## TODO
 
-0- speaker emb further investigate
-3- code bug checking
-1- code public
-2- presentation
-4- prefix tuning uzerinde dusun
-
-tsne plot per epoch to see changes in clusters
-- prefix tuning -> training with only most frequent 50 speakers
-- prefix tuning -> state specific training
+0- kl weight annealing
 
 - wise truncation
 
@@ -26,6 +18,9 @@ tsne plot per epoch to see changes in clusters
 4- topk and topp sampling (3 different generation scenarios at 1 go?)
 3- train with different prompts: "Travis Childers says the following:"(NO) vs "Travis Childers"(YES) vs "The following is a speech by Travis Childers."(YES)
 2- finetune gpt as well (allows cross contamination) or fine-tune for 1 epoch then freeze?
+tsne plot per epoch to see changes in clusters
+- prefix tuning -> training with only most frequent 50 speakers
+- prefix tuning -> state specific training
 
 ## MAYBE
 5- reduce GPU memory usage: use distilgpt2
