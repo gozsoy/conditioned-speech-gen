@@ -26,6 +26,17 @@ def kl_loss_fn(z_mu,z_rho):
     return kl_batch
 
 
+# compute kl weight according to cyclical kl annealing
+def get_kl_weight(cfg, current_iter):
+
+    effective_iter = current_iter % cfg['annealing_period']
+
+    if cfg['annealing_period'] / 2 <= effective_iter:
+        return cfg['kl_weight']
+    else:
+        return (cfg['kl_weight']* effective_iter) / (cfg['annealing_period']/2)
+
+
 def train(cfg, device, performance_logger):
 
     train_dataloader, tokenizer = get_data(cfg, split=0)
@@ -45,6 +56,8 @@ def train(cfg, device, performance_logger):
 
     # zero the parameters' gradients
     optimizer.zero_grad()
+
+    iter_count = 0
 
     for epoch in range(cfg['epochs']):  # loop over dataset
 
@@ -80,7 +93,10 @@ def train(cfg, device, performance_logger):
                 masked_loss_tensor = loss_tensor.where(binary_loss_mask, torch.tensor(0.0).to(device))
                 reconstruction_loss = masked_loss_tensor.sum() / binary_loss_mask.sum()
 
-                kl_loss = cfg['kl_weight'] * kl_loss_fn(z_mu, z_rho)
+                if cfg['use_annealing']:
+                    kl_loss = get_kl_weight(cfg, iter_count) * kl_loss_fn(z_mu, z_rho)
+                else:
+                    kl_loss = cfg['kl_weight'] * kl_loss_fn(z_mu, z_rho)
 
                 elbo = reconstruction_loss + kl_loss
 
@@ -92,6 +108,7 @@ def train(cfg, device, performance_logger):
                 scaler.step(optimizer)
                 scaler.update()
                 optimizer.zero_grad()
+                iter_count += 1
 
             # save batch metrics
             detached_rec_loss = reconstruction_loss.detach().cpu()

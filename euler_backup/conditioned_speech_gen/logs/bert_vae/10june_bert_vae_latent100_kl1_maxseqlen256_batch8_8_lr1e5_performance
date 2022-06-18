@@ -144,3 +144,13 @@
 10-06-2022 18:28  - iter: 1400 / 2898, iter_rec_loss: 0.0003, iter_kl_loss: 0.0003, iter_perplexity: 1.0003
 10-06-2022 18:31  - iter: 1500 / 2898, iter_rec_loss: 0.0004, iter_kl_loss: 0.0005, iter_perplexity: 1.0004
 10-06-2022 18:35  - iter: 1600 / 2898, iter_rec_loss: 0.0002, iter_kl_loss: 0.0003, iter_perplexity: 1.0002
+10-06-2022 18:38  - iter: 1700 / 2898, iter_rec_loss: 0.0003, iter_kl_loss: 0.0003, iter_perplexity: 1.0003
+10-06-2022 18:41  - iter: 1800 / 2898, iter_rec_loss: 0.0002, iter_kl_loss: 0.0003, iter_perplexity: 1.0002
+10-06-2022 18:45  - iter: 1900 / 2898, iter_rec_loss: 0.0012, iter_kl_loss: 0.0002, iter_perplexity: 1.0012
+10-06-2022 18:48  - iter: 2000 / 2898, iter_rec_loss: 0.0002, iter_kl_loss: 0.0003, iter_perplexity: 1.0002
+10-06-2022 18:51  - iter: 2100 / 2898, iter_rec_loss: 0.0003, iter_kl_loss: 0.0003, iter_perplexity: 1.0003
+10-06-2022 18:55  - iter: 2200 / 2898, iter_rec_loss: 0.0006, iter_kl_loss: 0.0003, iter_perplexity: 1.0006
+10-06-2022 18:58  - iter: 2300 / 2898, iter_rec_loss: 0.0004, iter_kl_loss: 0.0003, iter_perplexity: 1.0004
+10-06-2022 19:01  - iter: 2400 / 2898, iter_rec_loss: 0.0004, iter_kl_loss: 0.0002, iter_perplexity: 1.0004
+10-06-2022 19:05  - iter: 2500 / 2898, iter_rec_loss: 0.0002, iter_kl_loss: 0.0003, iter_perplexity: 1.0002
+10-06-2022 19:08  - iter: 2600 / 2898, iter_rec_loss: 0.0003, iter_kl_loss: 0.0003, iter_perplexity: 1.0003

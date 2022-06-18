@@ -1,6 +1,6 @@
 ## TODO
 
-0- kl weight annealing
+1- no bert finetuning to see if loss is large (sanity check)
 
 - wise truncation
 
@@ -21,6 +21,8 @@
 tsne plot per epoch to see changes in clusters
 - prefix tuning -> training with only most frequent 50 speakers
 - prefix tuning -> state specific training
+0- kl weight annealing
+
 
 ## MAYBE
 5- reduce GPU memory usage: use distilgpt2

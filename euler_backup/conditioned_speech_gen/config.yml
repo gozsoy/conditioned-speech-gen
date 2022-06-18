@@ -1,6 +1,6 @@
 # experiment
 model: bert_vae # speaker_prompt, prefix_tuning, bert_vae
-experiment_name: 10june_bert_vae_latent100_kl1_maxseqlen256_batch8_8_lr1e5 # prefix_tuning_spt or prefix_tuning_pp
+experiment_name: 17june_bert_vae_latent100_kl1000_cycanneal_maxseqlen256_batch8_8_lr1e5 # prefix_tuning_spt or prefix_tuning_pp
 
 # directory info
 data_path: /cluster/scratch/goezsoy/nlp_lss_datasets
@@ -31,4 +31,6 @@ encoded: 'encoded_parl_part_ids' # 'encoded_bioguide_ids' or 'encoded_st_p_ids' 
 
 # bert_vae
 latent_dim: 100
-kl_weight: 1.0
+kl_weight: 1000.0
+use_annealing: True
+annealing_period: 200
