@@ -93,7 +93,7 @@ cfg = {'latent_dim':200}
 
 model = BERT_VAE(cfg).to(device)
 
-checkpoint = torch.load('/cluster/scratch/goezsoy/nlp_lss_checkpoints/9june_bert_vae_latent200_kl100_maxseqlen256_batch8_8_lr1e5_epoch6.pt')
+checkpoint = torch.load('/cluster/scratch/goezsoy/nlp_lss_checkpoints/9june_bert_vae_latent200_kl100_maxseqlen256_batch8_8_lr1e5_epoch0.pt')
 model.load_state_dict(checkpoint['model_state_dict'])
 model.eval()
 
@@ -129,7 +129,19 @@ fig, ax = plt.subplots(figsize=(15,15))
 ax.scatter(scatter_x, scatter_y)
 
 for i in range(500):
-    ax.annotate(i, (scatter_x[i], scatter_y[i]))
+    if i in [2,165,9]:
+        ax.annotate(i, (scatter_x[i], scatter_y[i]), color='red')
+    elif i in [101,443,225]:
+        ax.annotate(i, (scatter_x[i], scatter_y[i]), color='green')
+    elif i in [72, 425]:
+        ax.annotate(i, (scatter_x[i], scatter_y[i]), color='blue')
+    elif i in [191,282]:
+        ax.annotate(i, (scatter_x[i], scatter_y[i]), color='orange')
+    elif i%2==0:
+        ax.annotate(i, (scatter_x[i], scatter_y[i]))
+    else:
+        continue
 
-plt.savefig('9june_bert_vae_latent200_kl100_maxseqlen256_batch8_8_lr1e5_epoch6.png')
+
+plt.savefig('20june_bert_vae_latent200_kl100_maxseqlen256_batch8_8_lr1e5_epoch0.png')
 plt.show()

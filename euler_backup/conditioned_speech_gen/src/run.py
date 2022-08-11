@@ -30,13 +30,13 @@ if __name__ == '__main__':
     perf_file_handler.setFormatter(formatter)
     performance_logger.addHandler(perf_file_handler)
 
-    '''generated_text_logger = logging.getLogger(cfg['experiment_name']+cfg['model']+'_gen_logger')
+    generated_text_logger = logging.getLogger(cfg['experiment_name']+cfg['model']+'_gen_logger')
     generated_text_logger.setLevel(logging.INFO)
     formatter2 = logging.Formatter('%(message)s')
     gen_file_handler = logging.FileHandler(os.path.join(cfg['log_dir'],cfg['model'],cfg['experiment_name']+'_generated_texts'))
     gen_file_handler.setLevel(logging.INFO)
     gen_file_handler.setFormatter(formatter2)
-    generated_text_logger.addHandler(gen_file_handler)'''
+    generated_text_logger.addHandler(gen_file_handler)
 
     # print settings
     performance_logger.info(f'cfg: {cfg}')
@@ -45,8 +45,8 @@ if __name__ == '__main__':
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     performance_logger.info(f'Using device: {device}')
 
-    if cfg['model']=='speaker_prompt':
-        train_speaker_prompt.train(cfg, device)
+    if cfg['model']=='speaker_prompt' or cfg['model']=='k2t':
+        train_speaker_prompt.train(cfg, device, performance_logger, generated_text_logger)
     elif cfg['model']=='prefix_tuning':
         train_prefix_tuning.train(cfg,device,performance_logger)
     elif cfg['model']=='bert_vae':

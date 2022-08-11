@@ -1,6 +1,7 @@
 ## TODO
 
 1- no bert finetuning to see if loss is large (sanity check)
+political word embeddings
 
 - wise truncation
 

@@ -1,6 +1,6 @@
 # experiment
-model: bert_vae # speaker_prompt, prefix_tuning, bert_vae
-experiment_name: 17june_bert_vae_latent100_kl1000_cycanneal_maxseqlen256_batch8_8_lr1e5 # prefix_tuning_spt or prefix_tuning_pp
+model: k2t # speaker_prompt, prefix_tuning, bert_vae, k2t
+experiment_name: 19july_k2t_gpt2medium_maxseqlen256_batch8_8_lr2e5 # prefix_tuning_spt or prefix_tuning_pp
 
 # directory info
 data_path: /cluster/scratch/goezsoy/nlp_lss_datasets
@@ -12,8 +12,8 @@ epochs: 10
 max_seq_len: 256
 batch_size: 8
 gradient_accumulations: 8  # batch_size * gr_acc = effective batch size
-learning_rate: 0.00001 # 1e-5?
-print_iter_freq: 100
+learning_rate: 0.00002 # 1e-5?
+print_iter_freq: 500
 #early_stopping: True  # fix
 #lr_scheduling: True  # fix
 
@@ -34,3 +34,6 @@ latent_dim: 100
 kl_weight: 1000.0
 use_annealing: True
 annealing_period: 200
+
+# k2t
+party: all  # all, democrat, republican

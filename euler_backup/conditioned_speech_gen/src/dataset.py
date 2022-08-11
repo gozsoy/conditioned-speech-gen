@@ -22,8 +22,9 @@ def get_data(cfg, split=0):
     #processed_df = processed_df.iloc[:2000]
 
     # dataset creation and formating
-    if cfg['model'] == 'prefix_tuning' or cfg['model'] == 'speaker_prompt':
-        tokenizer = GPT2Tokenizer.from_pretrained("EleutherAI/gpt-neo-125M")
+    if cfg['model'] == 'prefix_tuning' or cfg['model'] == 'speaker_prompt' or cfg['model'] == 'k2t':
+        #tokenizer = GPT2Tokenizer.from_pretrained("EleutherAI/gpt-neo-125M")
+        tokenizer = GPT2Tokenizer.from_pretrained("gpt2-medium")
         tokenizer.pad_token = tokenizer.eos_token
     elif cfg['model'] == 'bert_vae':
         tokenizer = BertTokenizerFast.from_pretrained('bert-base-cased')
@@ -38,12 +39,14 @@ def get_data(cfg, split=0):
             return {**tokenizer('The following is a speech by '+ row['first_name'] + ' ' + row['last_name'] + '.' + row['speech'],truncation=True,max_length=cfg['max_seq_len'])}
         elif cfg['model'] == 'prefix_tuning' or cfg['model'] == 'bert_vae':
             return {**tokenizer(row['speech'],truncation=True,max_length=cfg['max_seq_len'])}
+        elif cfg['model'] == 'k2t':
+            return {**tokenizer(row['speech'],truncation=True,max_length=cfg['max_seq_len'])}
         else:
             raise NotImplementedError()
 
     dataset = dataset.map(tokenize_function, batched=False) # change batched = True
 
-    if cfg['model'] == 'speaker_prompt' or cfg['model'] == 'bert_vae':
+    if cfg['model'] == 'speaker_prompt' or cfg['model'] == 'bert_vae' or cfg['model'] == 'k2t':
         included_cols = ['input_ids', 'attention_mask']
     elif cfg['model'] == 'prefix_tuning':
         included_cols = [cfg['encoded'],'input_ids', 'attention_mask']
