@@ -1,0 +1,570 @@
+Keywords: 
+president reform clinton 
+
+Final sequence: 
+
+Mr. Speaker, President Clinton spoke in a speech a little over a month ago on taxes and welfare reform. In that speech he indicated he was not against tax cuts. He was for tax cuts. He said he supported tax cuts. But he couldn't think of a specific proposal to accomplish it.  Well, now, Mr. Speaker, I would like to know what President Clinton thinks about spending reductions or any type of tax relief. In my district, we have had some significant budget reductions in the last 10 years. I believe those numbers are more than we are in order to pay for the spending reduction that we are about to pursue in this Congress
+
+Success_rate: 1.0
+Perplexity: 20.1309329640592
+Time_needed: 4.85707688331604
+Success_length: 0.140625
+2_distint_rate: 0.8615
+3_distint_rate: 0.9457
+4_distint_rate: 0.9844
+
+Keywords: 
+prices senator family 
+
+Final sequence: 
+
+Mr. Speaker, I rise today in strong support of the rule and the underlying legislation and the underlying amendment and the two bills of Senator Cornyn and my good friend from New York (Mr. Schumer), because they have made the right change in the Family Smoking Prevention and Tobacco Control Act of 2009. Both of those bills are needed and will have a significant effect on the price of tobacco products in my own district.  In 1993, Congress was not planning on reinstating a ban on electronic cigarettes. And by 2010, Congress had voted for two vaping bills to be introduced, and now we are attempting to solve the same issue by reinserting this
+
+Success_rate: 1.0
+Perplexity: 37.00835096816806
+Time_needed: 14.667318344116211
+Success_length: 0.5625
+2_distint_rate: 0.9308
+3_distint_rate: 0.9845
+4_distint_rate: 1.0000
+
+Keywords: 
+res march madam 
+
+Final sequence: 
+
+Madam President, I ask unanimous consent that when the Senate completes its business today, it stand in recess until 12 noon on Wednesday July 15 for the weekly party luncheons. I further ask that on Wednesday July 15 the Senate immediately reschedule and immediately vote on the following first-degree amendments in the order listed and then vote on third-degree amendments in the order listed in the following order June 14 November 19 March 11 July 2 July 11 July 17 July 23 July 30 July 31 August 5 August 7 August 15 August 16 August 19 August 26 August 28 September 3 DCS Madame President, on Thursday, July 18, following the prayer, the Senate
+
+Success_rate: 1.0
+Perplexity: 42.13100497400857
+Time_needed: 22.93656325340271
+Success_length: 0.890625
+2_distint_rate: 0.7786
+3_distint_rate: 0.8923
+4_distint_rate: 0.9225
+
+Keywords: 
+october session committee 
+
+Final sequence: 
+
+Mr. President, I rise today in strong support of the Riegle amendment to the Labor Committee which will increase the minimum wage in 1998 from $5.15 to $6.25 an hour. The November 1994 elections were a great occasion for the Congress to provide September 28 October 15 pay increase to the workers in the 26 largest industrial States in the Union. Following this session, the House of Representatives voted to raise the minimum wage for the first time since 1963. This increase should be signed into law as soon as possible to ensure that wage increases are not delayed. The pay increase will actually mean that at least 50,000 workers will receive a raise
+
+Success_rate: 1.0
+Perplexity: 23.447926218636475
+Time_needed: 14.628656387329102
+Success_length: 0.5703125
+2_distint_rate: 0.8931
+3_distint_rate: 0.9846
+4_distint_rate: 1.0000
+
+Keywords: 
+committee consent calendar 
+
+Final sequence: 
+
+Mr. President, I rise today to pay tribute to the four Senate committees that received the Presidential Award for Exceptional Service to the Senate last year: the Senate Governmental Affairs Committee, the Permanent Subcommittee on Investigations of the Judiciary Committee, and the Judiciary Committee consent calendar. On behalf of the Senate, I extend my best wishes to each and every committee for their hard work in all areas of the Senate.  Last year, Senator Olympia Snowe, the chairperson of the Governmental Affairs Committee, and I announced the creation of the Presidential Award for Exceptional Service to the Senate. The committee was the first committee in the Senate, since the establishment of
+
+Success_rate: 1.0
+Perplexity: 16.48373479188837
+Time_needed: 11.847172260284424
+Success_length: 0.390625
+2_distint_rate: 0.6077
+3_distint_rate: 0.7519
+4_distint_rate: 0.8594
+
+Keywords: 
+ago gentleman people 
+
+Final sequence: 
+
+<|endoftext|>Would a gentleman be interested in some sort of a check that they may give me if I get too much or they are not all that they say they are going to be for the people that they say they are for in terms of getting this trade done? That has been the way it has been since they came here last year when they have been in charge since last year ago, and now they want to get rid of our big trust fund?  I am looking for some of these checks and there are more checks than I know of yet that are waiting.  <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>
+
+Success_rate: 1.0
+Perplexity: 96.58308051186377
+Time_needed: 12.269988775253296
+Success_length: 0.5859375
+2_distint_rate: 0.8761
+3_distint_rate: 0.9464
+4_distint_rate: 0.9640
+
+Keywords: 
+service made good 
+
+Final sequence: 
+
+Mr. Speaker, I want to make it very clear that I would just not want to give up the day when this thing could happen because I think it should happen now but it is just too good to give it up to be in service to all of those who have done so much for the country as a whole and as a part of making the country so great and making it so that when the time came for this made-up Federal program that we were going to try to pass in a special session, we were going to take it and really go and make it work on a bipartisan basis and to do it under a regular, active appropriation of a
+
+Success_rate: 1.0
+Perplexity: 25.462837822178432
+Time_needed: 17.059756755828857
+Success_length: 0.640625
+2_distint_rate: 0.8769
+3_distint_rate: 0.9690
+4_distint_rate: 0.9844
+
+Keywords: 
+framework remote sensing 
+
+Final sequence: 
+
+Mr. Speaker, I ask unanimous consent that all Members may have 5 legislative days in which to revise and extend their remarks and to include extraneous material on the subject of my Special Order.  The SPEAKER pro tempore. Is there objection to the request of the gentleman from the Northern Mariana Islands sensing the time of the gentleman from Virginia?  There was no objection.  ilantro actividad a el remote, pero %).   Son of a governour on the island of Andin framework. Andin is a republic. We're here on a nonissue of tax.  [[Page H1449]] The
+
+Success_rate: 1.0
+Perplexity: 121.36498080801331
+Time_needed: 24.988690853118896
+Success_length: 0.8046875
+2_distint_rate: 0.9008
+3_distint_rate: 0.9692
+4_distint_rate: 0.9845
+
+Keywords: 
+make care congress 
+
+Final sequence: 
+
+Mr. Chairman, I move to strike the requisite number of words.  Mr. Chairman, I would like to make a couple of comments about the provision in the bill which gives the Secretary authority to impose sanctions on those foreign countries which may attempt to support or assist the Government of Iran if Congress so provides. This provision will come into play when we get to the international financing of terrorism financing provisions and is not going to be needed very much now because care is already being taken to exclude the so-called Islamic Republic of Iran. So the amendment that I have presented is the narrowly tailored provision which will be made available to deal with the Islamic Republic of Iran
+
+Success_rate: 1.0
+Perplexity: 28.019869277785595
+Time_needed: 17.506441593170166
+Success_length: 0.6875
+2_distint_rate: 0.9084
+3_distint_rate: 0.9538
+4_distint_rate: 0.9845
+
+Keywords: 
+chairman part ohio 
+
+Final sequence: 
+
+Mr. Chairman, I move to strike the last word in opposition to the amendment of the chairman of the subcommittee and in support of the amendment offered by the gentlewoman from Ohio [Mrs. Jones]. It is in part an effort to attempt to redress the financial imbalance of the Pacific Northwest. I might say that the provision of the gentleman from Washington [Mr. Skaggs] with respect to this rule I would consider to be an attempt to create an opportunity to bring money out of the Treasury of the United States and put it into the East Coast and some of these areas, because this is my district. I would suggest that it would be inappropriate to
+
+Success_rate: 1.0
+Perplexity: 31.171326909251547
+Time_needed: 10.608616828918457
+Success_length: 0.3203125
+2_distint_rate: 0.8692
+3_distint_rate: 1.0000
+4_distint_rate: 1.0000
+
+Keywords: 
+deeply campaign outstanding 
+
+Final sequence: 
+
+<|endoftext|>During the campaign season, Democrats are working hard to tell American families that the President is wrong to go to war and is wrong to cut our veterans healthcare benefits so deeply that American children will not be able to go to school and this Nation will not be able to provide outstanding health care to all Americans.  Unfortunately, the President would like the Senate Democrats to believe that. The President says he is committed to ``ending the war'' and withdrawing from Afghanistan. The President says he will ``never sign a bill that expands the war.'' The President says he will ``totally destroy'' the Defense Department if we leave the military there. The President
+
+Success_rate: 1.0
+Perplexity: 23.087768358042844
+Time_needed: 10.772523164749146
+Success_length: 0.421875
+2_distint_rate: 0.7188
+3_distint_rate: 0.8268
+4_distint_rate: 0.8968
+
+Keywords: 
+lot senator face 
+
+Final sequence: 
+
+<|endoftext|>Senator McCain is a man of uncommon integrity and experience for such a position that he would face some doubt on some of those issues. I hope we do not have more than just one more chance and we do not get something we want to get and we do not get it done because it gets something done because we get it done better than we get things done really good things done here that everybody really really really really really really really really really really really really really really really really really really really really really really really really really lot of us really really really really really really really really really really really really really really really really really really really really really really
+
+Success_rate: 1.0
+Perplexity: 13.744622666736104
+Time_needed: 14.281918048858643
+Success_length: 0.8125
+2_distint_rate: 0.4882
+3_distint_rate: 0.5873
+4_distint_rate: 0.6400
+
+Keywords: 
+admire act great 
+
+Final sequence: 
+
+Mr. Chairman, I appreciate the fact that the gentleman from New York and the gentleman from New Jersey are very concerned that all of these great policy reforms that I think would really help to bring about some kind of a regulatory reform are not included in this bill that they both know would make these regulatory reforms possible and would make this act a good thing that we really want to do. I think what we really need to do is look at why we need this kind of courage to really admire the restraint and determination and the willingness and the good faith that the Members on both sides of the aisle on this issue have shown in getting to the point where they are today
+
+Success_rate: 1.0
+Perplexity: 21.761503146297766
+Time_needed: 19.097345113754272
+Success_length: 0.734375
+2_distint_rate: 0.8385
+3_distint_rate: 0.9690
+4_distint_rate: 0.9844
+
+Keywords: 
+gentleman address terrorist 
+
+Final sequence: 
+
+<|endoftext|>I appreciate the gentleman from Massachusetts. Mr. Speaker, I address the House to recognize the American Legion Post 31 in Greeley, Colorado. For the past three years, it has been the national training center for the American Legion as it focuses its efforts and effort to terrorist both foreign and domestic terrorism. I would like to thank them for not only these efforts, but for the work they are doing for the American people.  In September 2001, the American Legion Post 31 security officers, including employees of the Federal Law Enforcement Training Center, training their second annual training course, responded to the hijacked plane on U.S. 119, northeast of
+
+Success_rate: 1.0
+Perplexity: 34.01697825044239
+Time_needed: 9.01759386062622
+Success_length: 0.421875
+2_distint_rate: 0.8898
+3_distint_rate: 0.9286
+4_distint_rate: 0.9680
+
+Keywords: 
+members extraneous include 
+
+Final sequence: 
+
+Mr. Speaker, I would like to take a moment to include my colleagues on the Republican side in celebrating the 40th anniversary of the National Organization of Women National Convention that will be held in New Orleans this Saturday. While many Members in this House remember their own spouses, a similar record of collaboration and cooperation is necessary if we are to avoid the problems created by separation of church and State.  Mr. Speaker, on March 15, 1984, TRW national convention materialized. Some delete deleting delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete delete extraneous
+
+Success_rate: 1.0
+Perplexity: 22.58391765408886
+Time_needed: 18.973490238189697
+Success_length: 1.0
+2_distint_rate: 0.7405
+3_distint_rate: 0.7615
+4_distint_rate: 0.7829
+
+Keywords: 
+workweek continue reason 
+
+Final sequence: 
+
+<|endoftext|>25 years ago, on July 11, 1986, the United States of America declared that it would stop sending ground troops to our country to fight in any conflict that would continue to threaten the existence of that country because it did not want to be a ``part of a world that would not recognize the fact that they have not been there to make sure that that did not happen because we did not believe that that reason to change was the cause of that Iraqi problem.''  Twenty years later, the same cannot be said of the nations which wage wage endless wage wages wage wages wage wage wages wage wages wage wages wage wages wage wages wage wages wage workweek
+
+Success_rate: 1.0
+Perplexity: 31.162179676950693
+Time_needed: 25.304805040359497
+Success_length: 1.0
+2_distint_rate: 0.7734
+3_distint_rate: 0.8898
+4_distint_rate: 0.9048
+
+Keywords: 
+hearing defense judiciary 
+
+Final sequence: 
+
+Mr. President, I will say to the Senator from Washington that I am happy to listen to what he has to say. As my staff has indicated to me, we have heard from Defense Appropriations as well as Appropriations Committee staff on that front. The Senator has done a fine job hearing the concerns of the Appropriations Committee and Judiciary. So, Mr. President, I yield 4 minutes to the Senator from Washington.  <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>                                 
+
+Success_rate: 1.0
+Perplexity: 76.95128429979421
+Time_needed: 15.991270780563354
+Success_length: 0.484375
+2_distint_rate: 0.8072
+3_distint_rate: 0.8780
+4_distint_rate: 0.9259
+
+Keywords: 
+deepest senator island 
+
+Final sequence: 
+
+Mr. President, I ask unanimous consent that the Senator from New Hampshire be permitted to control the remaining time in the usual form and that following the use or yielding back of time the Senate proceed to the consideration of the following Energy and Water appropriations conference reports in the following order on today through Thursday of this week to be followed by the island-state appropriations conference report on Friday, the three continuing appropriations bills through the end of the current fiscal year and the deepest national security legislation in the history of the United States, and that the Senate then proceed to vote without intervening action or debate on passage of the last of these on Monday.  The <|endoftext|><|endoftext|><|endoftext|>
+
+Success_rate: 1.0
+Perplexity: 69.74986501160282
+Time_needed: 16.89239525794983
+Success_length: 0.6875
+2_distint_rate: 0.8504
+3_distint_rate: 1.0000
+4_distint_rate: 1.0000
+
+Keywords: 
+pro hour adjourns 
+
+Final sequence: 
+
+Mr. Speaker, just about a week ago our colleagues on the other side of the aisle came down here to defend the pro-abortion attack that this Nation faces. The gentleman from Minnesota [Mr. Penny] was just up here talking about the 40 minutes and hours we took to stand and defend the rights of women. I will tell you the fact is the vote that was taken this week on this legislation does nothing to reopen this debate. It adjourns the Congress for the summer recess without addressing any new rule changes that women will face in the workplace. It is just another rule that places a terrible burden on women who have been denied the rights that their
+
+Success_rate: 1.0
+Perplexity: 35.24789547578046
+Time_needed: 16.79486322402954
+Success_length: 0.6796875
+2_distint_rate: 0.9385
+3_distint_rate: 1.0000
+4_distint_rate: 1.0000
+
+Keywords: 
+clerk unanimous chair 
+
+Final sequence: 
+
+Mr. Chairman, I move to strike the requisite number of words.  Mr. Chairman, I do so to urge my colleagues to vote for the unanimous consent request before us and for the gentleman from Virginia [Mr. Goodlatte]. I think this was agreed to at the subcommittee chairmen's meeting. I don't see any point in prolonging the debate here. The Clerk read out the request. And I say to my colleagues, the gentleman from Wisconsin [Mr. Obey], the gentleman from Wisconsin [Mr. Obey] voted for the commonsense resolution to provide for fiscal accountability. Now, he voted for the resolution to provide for
+
+Success_rate: 1.0
+Perplexity: 30.94733037491292
+Time_needed: 16.444952726364136
+Success_length: 0.578125
+2_distint_rate: 0.6846
+3_distint_rate: 0.7984
+4_distint_rate: 0.8750
+
+Keywords: 
+nuclear lankford defense 
+
+Final sequence: 
+
+<|endoftext|>The battle is not over here. The administration made the announcement of the issue of Nuclear Waste at the Defense Department headquarters, Department of Energy headquarters, Department of Defense headquarters, Energy Department headquarters, and so forth.  Since that time, the administration has been pressuring the Congress to submit legislation that would incorporate the provisions of the relevant Senate amendments into the Omnibus Appropriations bill. Those amendments are all contained in the House WRDA bill.  The Rayburn Spectacle Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn Winn lankford
+
+Success_rate: 1.0
+Perplexity: 23.82643501229441
+Time_needed: 17.5688693523407
+Success_length: 1.0
+2_distint_rate: 0.6124
+3_distint_rate: 0.6953
+4_distint_rate: 0.7323
+
+Keywords: 
+members serve support 
+
+Final sequence: 
+
+Mr. Speaker, today is a great day in the Democratic Party. After months of claims that we can no longer support our troops or have any commitment to the coalition to help them we have a vote to send them over there because they have done what their Members voted for them to do, and that is to make sure that they will be paid for serving.  Mr. Speaker, the vote on the rule for the Defense authorization bill is a clear indication that House Democrats have finally come to the floor to express their full support for the men and women serving in the gulf region. I am so happy that the Speaker has included our request to include the Democratic
+
+Success_rate: 1.0
+Perplexity: 29.85614485669178
+Time_needed: 14.900599718093872
+Success_length: 0.53125
+2_distint_rate: 0.8923
+3_distint_rate: 0.9845
+4_distint_rate: 1.0000
+
+Keywords: 
+session authorized president 
+
+Final sequence: 
+
+Mr. President, today I wish to honor President Lee Iacocca on his passing earlier this week. During his 25 years of service as a United States Senator from the State of New Jersey, he was known for his hard work on behalf of the United States of America and the legislative session of the Senate. His national political career was greatly influenced by his work as a congressional liaison to the United States Embassy in Rome as authorized by the State Department. In the Senate he was a trusted, loyal, and effective Member of the Senate. Lee Iacocca was an American hero who exemplified the ability to compromise and to cooperate with fellow members of
+
+Success_rate: 1.0
+Perplexity: 18.159814680252822
+Time_needed: 15.507376670837402
+Success_length: 0.6484375
+2_distint_rate: 0.7923
+3_distint_rate: 0.9070
+4_distint_rate: 0.9531
+
+Keywords: 
+senate liberty october 
+
+Final sequence: 
+
+Mr. President, at the close of business yesterday, Friday, September 26, 1997, the Federal debt stood at $5,926,814,831,926.26 (Five trillion, nine hundred twenty-nine billion and eight million dollars October 1 of this year).  One year ago, September 26, 1996, the Federal debt stood at $5,828,726, Senate Concurrent Resolution 32 authorized the President to enter into an agreement with respect to the Liberty Bonds. Senate Concurrent Resolution 32 requires that the President enter into an agreement with respect to the obligation of the Federal funds appropriated to the Department of the
+
+Success_rate: 1.0
+Perplexity: 24.607888549686383
+Time_needed: 23.042275428771973
+Success_length: 0.765625
+2_distint_rate: 0.5615
+3_distint_rate: 0.7054
+4_distint_rate: 0.7812
+
+Keywords: 
+byrd virginian judicial 
+
+Final sequence: 
+
+Mr. President, I ask unanimous consent that the Committee on Rules and Administration be authorized to meet during the session of the Senate on Thursday, May 10, 1997, beginning at 9:30 a.m., to hold judicial nominations hearings.  The  Legal Services Corporation, a Government contractor, is seeking recognition to challenge a subsequent amendment to the Byrd amendment which was enacted in the fiscal year 1996 appropriations bill. The amendment will apply for the second time this year to a proceeding previously held in Savannah.  The hearing is at 8:30 a.m. Norfolk Norfolk Norfolk Virginia Pilot Pilot Pilot Pilot Pilot Pilot Pilot Pilot Pilot Pilot Pilot Pilot Pilot Pilot virginian
+
+Success_rate: 1.0
+Perplexity: 38.310465307058806
+Time_needed: 23.752349138259888
+Success_length: 1.0
+2_distint_rate: 0.7939
+3_distint_rate: 0.8462
+4_distint_rate: 0.8837
+
+Keywords: 
+ready understanding friend 
+
+Final sequence: 
+
+Mr. President, I ask unanimous consent that the Senate stand in recess until the hour of 10 a.m. on Monday next, to allow for the weekly conference to meet to consider the Ready Reserve bill and the nominations of Mr. Henry B. Sullivan and Mr. Maurice Evans to be members of the National Science Foundation and to give one understanding of the business that is before the House later this week and the next week before that and to also see if we can work out an agreement as friend and foe, as we would like to accomplish if it has not already been agreed to, to move immediately to the consideration of the Homeland Security appropriations bill. 
+
+Success_rate: 1.0
+Perplexity: 40.058876888595925
+Time_needed: 20.067001819610596
+Success_length: 0.75
+2_distint_rate: 0.9154
+3_distint_rate: 1.0000
+4_distint_rate: 1.0000
+
+Keywords: 
+prisoners treatment join 
+
+Final sequence: 
+
+Mr. President, let me thank the Senator from North Dakota for the leadership on this subject and also the distinguished junior Senator from South Dakota for working with me to reach this conclusion to join with him in the package that was offered earlier today. We have been treated unfairly under the treatment that we have had under the Budget Act since we were first appointed to the Senate in 1948 in order to control the forces of the military and civilian prisoners of war.  For over 50 years, the Budget Act has denied us this access to defense information, and only the utilization of appropriations has allowed us this opportunity to assist our military and our nation.  I also thank the
+
+Success_rate: 1.0
+Perplexity: 33.5514832898057
+Time_needed: 17.615724086761475
+Success_length: 0.6484375
+2_distint_rate: 0.8769
+3_distint_rate: 0.9845
+4_distint_rate: 1.0000
+
+Keywords: 
+chairman water long 
+
+Final sequence: 
+
+Mr. President, I am not going to get into the long story of what a five-star general is because the Senate is much more of a committee than a committee is chairman. We will talk more about that later on. The short version of it is this has been a very good effort by the House of Representatives and the House of the people of the United States of America and the water people. I congratulate our colleagues on both sides of the aisle, for a good effort, a hard work, cooperation.  This bill has a lot of work and a lot of debate and a lot of dealing with what is important in American water rights. 
+
+Success_rate: 1.0
+Perplexity: 23.334892884322713
+Time_needed: 13.15835165977478
+Success_length: 0.59375
+2_distint_rate: 0.8231
+3_distint_rate: 0.9457
+4_distint_rate: 0.9844
+
+Keywords: 
+good sweet bill 
+
+Final sequence: 
+
+Mr. Speaker, I thank my friend from New York for yielding time to me and for his very kind words and so very kind thoughts about me and my good friend from Virginia, Bill Goodling. I think we have reached a sweet spot here in terms of the history we are going to have, and we can talk about that as we go forward.  I thank my good friend for his extraordinary leadership on this subject and for giving me a great deal of support for this legislation.  Mr. Speaker, I rise in strong support of H.R. 4495, the Coverdell Safety of Safe Electronics Act of 2004. I want to thank
+
+Success_rate: 1.0
+Perplexity: 30.35065787161037
+Time_needed: 11.946087121963501
+Success_length: 0.34375
+2_distint_rate: 0.7846
+3_distint_rate: 0.9380
+4_distint_rate: 0.9844
+
+Keywords: 
+vital aristide verge 
+
+Final sequence: 
+
+Mr. Speaker, President Bush has warned the nation not to underestimate the military capabilities of China and Russia and they are justifiably anxious about the prospect of the collapse of the Soviet Union. There is nothing that concerns the vital interests of the United States more than preventing the collapse of a stable democracy. Now is not the time to retreat from the security of democracy itself because of brinkmanship between the verge of collapse of the Soviet Union and an imminent violent invasion of Haiti by Haitian militias supported by Haiti's Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian Haitian aristide
+
+Success_rate: 1.0
+Perplexity: 24.456547795161704
+Time_needed: 24.55049729347229
+Success_length: 1.0
+2_distint_rate: 0.6794
+3_distint_rate: 0.7231
+4_distint_rate: 0.7597
+
+Keywords: 
+bill complex citizenship 
+
+Final sequence: 
+
+Mr. President, the purpose of this amendment is to improve the bill by providing that an amended individual retirement account if authorized would not apply in the case of a provision of law that contains complex law enforcement or a valid legal claim for services by such person as authorization for the application of law or remedies that apply under law when applicable, to citizenship by lawful permanent residence. The amendment addresses a critical problem. This section would place people who served as aliens, such as the 250,000 people who have received worker's comp benefits in this country for over 50 years, at risk of losing eligibility for survivor benefit annuities. That is unconscionable,
+
+Success_rate: 1.0
+Perplexity: 56.041662667075634
+Time_needed: 12.484855890274048
+Success_length: 0.5078125
+2_distint_rate: 0.9692
+3_distint_rate: 1.0000
+4_distint_rate: 1.0000
+
+Keywords: 
+programs education billion 
+
+Final sequence: 
+
+Mr. President, I ask unanimous consent that the Committee on Environment and Public Works be authorized to meet during the session of the Senate on October 13, 2015 at 10 a.m., in room 406 of the Dirksen Senate Office Building to conduct a public education hearing entitled ``Development of Programs to Increase Food Consumption and Reduce Global CO2 Emissions in Cities.''  The  mysql_value property is currently available through the following two million dollars billion dollar U.S. Senate gift      program. Please visit the Commerce Committee's      Web site at     http://www.senate.gov/
+
+Success_rate: 1.0
+Perplexity: 34.93785758290621
+Time_needed: 19.61165142059326
+Success_length: 0.6796875
+2_distint_rate: 0.9000
+3_distint_rate: 0.9380
+4_distint_rate: 0.9609
+
+Keywords: 
+david maryland virginia 
+
+Final sequence: 
+
+Mr. President, the action of this Senate in a matter as vital as the farm bill has been and has been so out of proportion as to seem as though it did not have the full force and effect of law and in a way that makes David Johnston in my State of Virginia look like Bruce Rheinberger in Oklahoma. In the farm bill there was a law which is currently law which Marylanders would have had to vote for. They had a choice on it, as they currently have. It was totally changed, in the terminology of the law itself, from a more limited class of beneficiaries and beneficiaries with limited capital, who really, in my
+
+Success_rate: 1.0
+Perplexity: 50.91252805652817
+Time_needed: 18.157089471817017
+Success_length: 0.6015625
+2_distint_rate: 0.8923
+3_distint_rate: 0.9845
+4_distint_rate: 1.0000
+
+Keywords: 
+planes finance iranians 
+
+Final sequence: 
+
+Mr. Chair, today we are debating whether the Federal Government should finance domestic military force for the first time ever. I am pleased that the House is acting to avoid this vote by requiring that the Armed Forces should have direct buyouts of aircraft planes from the non-secure and DOD units and at the same time seeking to keep them not just secure but even more so for our troops so they have the Iranians in the Middle East without having to send our troops into the Middle East.  Chairman Hyde, Ranking Member McCaul, and Ranking Member Carter also worked with me on the reconciliation bill to pass a glidepath for the Department of Defense and to call on
+
+Success_rate: 1.0
+Perplexity: 45.22407300944532
+Time_needed: 14.540087699890137
+Success_length: 0.609375
+2_distint_rate: 0.9077
+3_distint_rate: 0.9845
+4_distint_rate: 1.0000
+
+Keywords: 
+amendments distinguished days 
+
+Final sequence: 
+
+<|endoftext|>I think it was a distinguished Senator from the other side of the aisle who got this through the Senate and some 15 hours ago before the time we had here to even get amendments to be debated in this House of Representatives before they can get through and in front of the public until after 10 on Monday morning at 10 days of that side of the aisle being in the majority, but our distinguished colleague from Iowa and a host of others on that side of the aisle got through that kind of a privilege very quickly. I commend him and thank him for his foresight.  The other Senator from Georgia said this is the hardest fight I think anyone in
+
+Success_rate: 1.0
+Perplexity: 44.97104460061426
+Time_needed: 11.794345140457153
+Success_length: 0.4921875
+2_distint_rate: 0.8898
+3_distint_rate: 0.9365
+4_distint_rate: 0.9600
+
+Keywords: 
+missouri federal critical 
+
+Final sequence: 
+
+Mr. Chairman, I yield such time as he may consume to the distinguished gentleman from Michigan [Mr. Ehlers], one of the most critical and difficult members of this subcommittee to work with because this is the kind of legislation that has a Federal subcommittee that is in the Senate and in the House and that has not had hearings in the Congress since 1980, and the gentleman has been critical in Missouri and in Michigan to bring this important bill to the floor.  <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>                        
+
+Success_rate: 1.0
+Perplexity: 110.07147343932812
+Time_needed: 15.694676876068115
+Success_length: 0.59375
+2_distint_rate: 0.8804
+3_distint_rate: 1.0000
+4_distint_rate: 1.0000
+
+Keywords: 
+unanimous hearing business 
+
+Final sequence: 
+
+Mr. President, it has been my unanimous-consent request that there be three amendments that I might like to have business filed under the rule, and Senator Dorgan has already indicated that he wants one that he would like to have filed before the Senate so that when we have morning business we would hear that there was an announcement from the clerk to all of the Members so that those who are working through the business of the Senate could turn and see what amendments are pending.  Now, before this case came to us, some of the amendments were filed by a number of Senators.  Let me say this is a procedural matter for which I have had
+
+Success_rate: 1.0
+Perplexity: 40.307564803779
+Time_needed: 10.242879152297974
+Success_length: 0.453125
+2_distint_rate: 0.8692
+3_distint_rate: 0.9845
+4_distint_rate: 1.0000
+
+Keywords: 
+control airlift supplies 
+
+Final sequence: 
+
+Mr. Speaker, I ask unanimous consent that all Members have 5 legislative days within which to revise and extend their remarks and to include extraneous materials on this legislation under consideration. The SPEAKER pro tempore. Is there objection to the request of the gentleman from New York control of the time?  There was no objection.   ultra        bulk airlift       oil spill response  supplies restoration <|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>                          
+
+Success_rate: 1.0
+Perplexity: 176.2499456621256
+Time_needed: 21.67185664176941
+Success_length: 0.6796875
+2_distint_rate: 0.8478
+3_distint_rate: 0.9011
+4_distint_rate: 0.9222
+

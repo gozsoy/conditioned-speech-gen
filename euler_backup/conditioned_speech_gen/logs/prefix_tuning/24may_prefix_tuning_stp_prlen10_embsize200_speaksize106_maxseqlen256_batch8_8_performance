@@ -1,0 +1,115 @@
+24-05-2022 23:03  - cfg: {'model': 'prefix_tuning', 'experiment_name': '24may_prefix_tuning_stp_prlen10_embsize200_speaksize106_maxseqlen256_batch8_8', 'data_path': '/cluster/scratch/goezsoy/nlp_lss_datasets', 'log_dir': '../logs', 'checkpoint_dir': '/cluster/scratch/goezsoy/nlp_lss_checkpoints', 'epochs': 200, 'max_seq_len': 256, 'batch_size': 8, 'gradient_accumulations': 8, 'learning_rate': 0.0001, 'print_iter_freq': 500, 'prefix_len': 10, 'embed_size_per_token': 200, 'speaker_size': 106, 'freeze_gpt': False, 'encoded': 'encoded_st_p_ids'}
+24-05-2022 23:03  - Using device: cuda:0
+24-05-2022 23:15  - train data loaded.
+24-05-2022 23:16  - valid data loaded.
+
+24-05-2022 23:17  - epoch: 1 / 200
+24-05-2022 23:34  - iter: 500 / 2898, iter_loss: 6.4261, iter_perplexity: 637.2767
+24-05-2022 23:51  - iter: 1000 / 2898, iter_loss: 5.6707, iter_perplexity: 297.5300
+25-05-2022 00:07  - iter: 1500 / 2898, iter_loss: 4.8274, iter_perplexity: 132.9468
+25-05-2022 00:24  - iter: 2000 / 2898, iter_loss: 4.1101, iter_perplexity: 66.0958
+25-05-2022 00:41  - iter: 2500 / 2898, iter_loss: 4.0245, iter_perplexity: 57.9148
+25-05-2022 00:55  - epoch: 1 / 200, train_loss: 5.1289, train_perplexity: 2766.7522
+
+25-05-2022 00:55  - epoch: 2 / 200
+25-05-2022 01:12  - iter: 500 / 2898, iter_loss: 3.2609, iter_perplexity: 27.8231
+25-05-2022 01:29  - iter: 1000 / 2898, iter_loss: 3.1542, iter_perplexity: 23.8559
+25-05-2022 01:46  - iter: 1500 / 2898, iter_loss: 2.7151, iter_perplexity: 16.1288
+25-05-2022 02:03  - iter: 2000 / 2898, iter_loss: 2.5747, iter_perplexity: 13.8748
+25-05-2022 02:20  - iter: 2500 / 2898, iter_loss: 2.5284, iter_perplexity: 13.1364
+25-05-2022 02:33  - epoch: 2 / 200, train_loss: 2.9377, train_perplexity: 21.1875
+
+25-05-2022 02:33  - epoch: 3 / 200
+25-05-2022 02:50  - iter: 500 / 2898, iter_loss: 2.6559, iter_perplexity: 14.4973
+25-05-2022 03:07  - iter: 1000 / 2898, iter_loss: 2.3643, iter_perplexity: 11.1463
+25-05-2022 03:24  - iter: 1500 / 2898, iter_loss: 2.2621, iter_perplexity: 10.2654
+25-05-2022 03:41  - iter: 2000 / 2898, iter_loss: 2.3893, iter_perplexity: 11.2464
+25-05-2022 03:58  - iter: 2500 / 2898, iter_loss: 2.3507, iter_perplexity: 11.2146
+25-05-2022 04:11  - epoch: 3 / 200, train_loss: 2.4602, train_perplexity: 12.1865
+
+25-05-2022 04:11  - epoch: 4 / 200
+25-05-2022 04:28  - iter: 500 / 2898, iter_loss: 2.2945, iter_perplexity: 10.5609
+25-05-2022 04:45  - iter: 1000 / 2898, iter_loss: 2.3187, iter_perplexity: 10.8568
+25-05-2022 05:02  - iter: 1500 / 2898, iter_loss: 2.3587, iter_perplexity: 10.7409
+25-05-2022 05:19  - iter: 2000 / 2898, iter_loss: 2.5062, iter_perplexity: 12.6782
+25-05-2022 05:36  - iter: 2500 / 2898, iter_loss: 2.4078, iter_perplexity: 11.2535
+25-05-2022 05:49  - epoch: 4 / 200, train_loss: 2.3576, train_perplexity: 10.9999
+
+25-05-2022 05:49  - epoch: 5 / 200
+25-05-2022 06:06  - iter: 500 / 2898, iter_loss: 2.3343, iter_perplexity: 10.5480
+25-05-2022 06:23  - iter: 1000 / 2898, iter_loss: 2.2979, iter_perplexity: 10.1788
+25-05-2022 06:40  - iter: 1500 / 2898, iter_loss: 2.4404, iter_perplexity: 11.5505
+25-05-2022 06:57  - iter: 2000 / 2898, iter_loss: 2.3493, iter_perplexity: 10.7365
+25-05-2022 07:14  - iter: 2500 / 2898, iter_loss: 2.1703, iter_perplexity: 9.6383
+25-05-2022 07:27  - epoch: 5 / 200, train_loss: 2.2892, train_perplexity: 10.2589
+
+25-05-2022 07:27  - epoch: 6 / 200
+25-05-2022 07:44  - iter: 500 / 2898, iter_loss: 2.0674, iter_perplexity: 8.1912
+25-05-2022 08:01  - iter: 1000 / 2898, iter_loss: 2.3435, iter_perplexity: 10.9996
+25-05-2022 08:19  - iter: 1500 / 2898, iter_loss: 2.0105, iter_perplexity: 7.6701
+25-05-2022 08:36  - iter: 2000 / 2898, iter_loss: 2.1987, iter_perplexity: 9.3492
+25-05-2022 08:53  - iter: 2500 / 2898, iter_loss: 2.2200, iter_perplexity: 9.7230
+25-05-2022 09:06  - epoch: 6 / 200, train_loss: 2.2331, train_perplexity: 9.6964
+
+25-05-2022 09:06  - epoch: 7 / 200
+25-05-2022 09:23  - iter: 500 / 2898, iter_loss: 2.0483, iter_perplexity: 8.0676
+25-05-2022 09:40  - iter: 1000 / 2898, iter_loss: 2.2783, iter_perplexity: 9.9082
+25-05-2022 09:57  - iter: 1500 / 2898, iter_loss: 2.0846, iter_perplexity: 8.3848
+25-05-2022 10:14  - iter: 2000 / 2898, iter_loss: 2.1782, iter_perplexity: 8.8955
+25-05-2022 10:31  - iter: 2500 / 2898, iter_loss: 2.4002, iter_perplexity: 11.2533
+25-05-2022 10:44  - epoch: 7 / 200, train_loss: 2.1841, train_perplexity: 9.2337
+
+25-05-2022 10:44  - epoch: 8 / 200
+25-05-2022 11:01  - iter: 500 / 2898, iter_loss: 2.0475, iter_perplexity: 8.1162
+25-05-2022 11:18  - iter: 1000 / 2898, iter_loss: 2.1990, iter_perplexity: 9.1734
+25-05-2022 11:35  - iter: 1500 / 2898, iter_loss: 2.1655, iter_perplexity: 8.9630
+25-05-2022 11:52  - iter: 2000 / 2898, iter_loss: 1.9854, iter_perplexity: 7.5801
+25-05-2022 12:09  - iter: 2500 / 2898, iter_loss: 2.1298, iter_perplexity: 8.5975
+25-05-2022 12:22  - epoch: 8 / 200, train_loss: 2.1395, train_perplexity: 8.8278
+
+25-05-2022 12:22  - epoch: 9 / 200
+25-05-2022 12:39  - iter: 500 / 2898, iter_loss: 2.1239, iter_perplexity: 8.4299
+25-05-2022 12:56  - iter: 1000 / 2898, iter_loss: 2.0994, iter_perplexity: 8.2802
+25-05-2022 13:13  - iter: 1500 / 2898, iter_loss: 2.0904, iter_perplexity: 8.2693
+25-05-2022 13:30  - iter: 2000 / 2898, iter_loss: 1.8286, iter_perplexity: 6.6418
+25-05-2022 13:47  - iter: 2500 / 2898, iter_loss: 2.0074, iter_perplexity: 7.7837
+25-05-2022 14:01  - epoch: 9 / 200, train_loss: 2.0974, train_perplexity: 8.4612
+
+25-05-2022 14:01  - epoch: 10 / 200
+25-05-2022 14:18  - iter: 500 / 2898, iter_loss: 2.0063, iter_perplexity: 7.6450
+25-05-2022 14:34  - iter: 1000 / 2898, iter_loss: 2.0096, iter_perplexity: 7.8070
+25-05-2022 14:51  - iter: 1500 / 2898, iter_loss: 2.0918, iter_perplexity: 8.3715
+25-05-2022 15:08  - iter: 2000 / 2898, iter_loss: 2.1004, iter_perplexity: 8.4377
+25-05-2022 15:25  - iter: 2500 / 2898, iter_loss: 2.2423, iter_perplexity: 9.5361
+25-05-2022 15:39  - epoch: 10 / 200, train_loss: 2.0563, train_perplexity: 8.1152
+
+25-05-2022 15:39  - epoch: 11 / 200
+25-05-2022 15:56  - iter: 500 / 2898, iter_loss: 1.8109, iter_perplexity: 6.4756
+25-05-2022 16:13  - iter: 1000 / 2898, iter_loss: 1.9570, iter_perplexity: 7.3338
+25-05-2022 16:30  - iter: 1500 / 2898, iter_loss: 1.9529, iter_perplexity: 7.1520
+25-05-2022 16:46  - iter: 2000 / 2898, iter_loss: 2.1630, iter_perplexity: 8.7627
+25-05-2022 17:03  - iter: 2500 / 2898, iter_loss: 2.0091, iter_perplexity: 7.6825
+25-05-2022 17:17  - epoch: 11 / 200, train_loss: 2.0171, train_perplexity: 7.7982
+
+25-05-2022 17:17  - epoch: 12 / 200
+25-05-2022 17:34  - iter: 500 / 2898, iter_loss: 1.9137, iter_perplexity: 6.9719
+25-05-2022 17:51  - iter: 1000 / 2898, iter_loss: 1.9517, iter_perplexity: 7.1614
+25-05-2022 18:08  - iter: 1500 / 2898, iter_loss: 1.9212, iter_perplexity: 7.1498
+25-05-2022 18:25  - iter: 2000 / 2898, iter_loss: 1.9287, iter_perplexity: 7.1032
+25-05-2022 18:42  - iter: 2500 / 2898, iter_loss: 2.0020, iter_perplexity: 7.6333
+25-05-2022 18:55  - epoch: 12 / 200, train_loss: 1.9778, train_perplexity: 7.4927
+
+25-05-2022 18:55  - epoch: 13 / 200
+25-05-2022 19:12  - iter: 500 / 2898, iter_loss: 1.7454, iter_perplexity: 6.0383
+25-05-2022 19:29  - iter: 1000 / 2898, iter_loss: 2.1144, iter_perplexity: 8.3378
+25-05-2022 19:46  - iter: 1500 / 2898, iter_loss: 1.9763, iter_perplexity: 7.4497
+25-05-2022 20:03  - iter: 2000 / 2898, iter_loss: 1.9125, iter_perplexity: 6.9952
+25-05-2022 20:20  - iter: 2500 / 2898, iter_loss: 1.8912, iter_perplexity: 6.9334
+25-05-2022 20:33  - epoch: 13 / 200, train_loss: 1.9392, train_perplexity: 7.2036
+
+25-05-2022 20:33  - epoch: 14 / 200
+25-05-2022 20:50  - iter: 500 / 2898, iter_loss: 1.9437, iter_perplexity: 7.1241
+25-05-2022 21:07  - iter: 1000 / 2898, iter_loss: 2.0187, iter_perplexity: 7.7011
+25-05-2022 21:24  - iter: 1500 / 2898, iter_loss: 1.8901, iter_perplexity: 6.8216
+25-05-2022 21:41  - iter: 2000 / 2898, iter_loss: 1.9513, iter_perplexity: 7.1924
+25-05-2022 21:58  - iter: 2500 / 2898, iter_loss: 1.9019, iter_perplexity: 6.8497

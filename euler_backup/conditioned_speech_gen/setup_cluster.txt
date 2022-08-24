@@ -46,7 +46,22 @@ module load gcc/8.2.0 python_gpu/3.9.9 eth_proxy
 cd conditioned_speech_gen
 conda activate cond_text_gen_project
 cd src/
-bsub -n 4 -W 23:00 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python run.py --config ../config.yml
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python run.py --config config.yml
+
+# generating text with shards
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python k2t.py -file_name=data/shard0/keywords.txt -results_subfolder=finetunedgptmed_lr3e5_epoch3 -top_p=0.7 -weight=20.0 -n_generated_sentences=128
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python k2t.py -file_name=data/shard1/keywords.txt -results_subfolder=finetunedgptmed_lr3e5_epoch3 -top_p=0.7 -weight=20.0 -n_generated_sentences=128
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python k2t.py -file_name=data/shard2/keywords.txt -results_subfolder=finetunedgptmed_lr3e5_epoch3 -top_p=0.7 -weight=20.0 -n_generated_sentences=128
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python k2t.py -file_name=data/shard3/keywords.txt -results_subfolder=finetunedgptmed_lr3e5_epoch3 -top_p=0.7 -weight=20.0 -n_generated_sentences=128
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python k2t.py -file_name=data/shard4/keywords.txt -results_subfolder=finetunedgptmed_lr3e5_epoch3 -top_p=0.7 -weight=20.0 -n_generated_sentences=128
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python k2t.py -file_name=data/shard5/keywords.txt -results_subfolder=finetunedgptmed_lr3e5_epoch3 -top_p=0.7 -weight=20.0 -n_generated_sentences=128
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python k2t.py -file_name=data/shard6/keywords.txt -results_subfolder=finetunedgptmed_lr3e5_epoch3 -top_p=0.7 -weight=20.0 -n_generated_sentences=128
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python k2t.py -file_name=data/shard7/keywords.txt -results_subfolder=finetunedgptmed_lr3e5_epoch3 -top_p=0.7 -weight=20.0 -n_generated_sentences=128
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python k2t.py -file_name=data/shard8/keywords.txt -results_subfolder=finetunedgptmed_lr3e5_epoch3 -top_p=0.7 -weight=20.0 -n_generated_sentences=128
+bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python k2t.py -file_name=data/shard9/keywords.txt -results_subfolder=finetunedgptmed_lr3e5_epoch3 -top_p=0.7 -weight=20.0 -n_generated_sentences=128
+
+
+
 
 # commands for the job submitted
 bjobs

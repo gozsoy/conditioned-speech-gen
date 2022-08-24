@@ -1,0 +1,450 @@
+Keywords: 
+tempore speaker gdp 
+
+Final sequence: 
+
+Mr. Chairman, I rise in opposition to the Miller amendment which would eliminate $40 million in education assistance to schools around the country that fall below the academic standards set by the national standards developed by the NAEP educational organization.  Mr. Chairman, I wish to thank Congresswoman Pressley for her leadership in bringing this amendment before the House. I have spoken many times in support of NAEP and in opposition to any attempt to eliminate this program which continues to serve our children in this country today.  Mr. Chairman, I oppose the Miller amendment to eliminate $40 million in education assistance to schools around the country that fall below the academic standards set by
+
+Success_rate: 0.0
+Perplexity: 15.974953370824641
+Time_needed: 40.94809937477112
+Success_length: 0.0
+2_distint_rate: 0.4846
+3_distint_rate: 0.5969
+4_distint_rate: 0.6641
+
+Keywords: 
+chunks ban big 
+
+Final sequence: 
+
+<|endoftext|>I believe we have all seen the big political ads they run against President Obama on the health care bill. Those ads constantly repeat that the health care bill is going to ``eat away'' or that it will kill or even that it will drive up the cost of health care in the United States. We have seen those same ads, and the American people know that the number one concern is whether or not we repeal the health care bill that passed the House of Representatives, that was vetoed by the President in May and that is before us today. The number one concern in the health care ads now is to see if the health care bill will pass
+
+Success_rate: 0.3333333333333333
+Perplexity: 17.261816335238134
+Time_needed: 29.674529314041138
+Success_length: 0.0
+2_distint_rate: 0.7874
+3_distint_rate: 0.8968
+4_distint_rate: 0.9680
+
+Keywords: 
+meetings administration case 
+
+Final sequence: 
+
+<|endoftext|>No or limiting amendments which have been agreed to by both sides may be in order under this agreement except for the following amendments: 1088 and 1089, the substitute amendment No. 1013 that is at the desk; 1090, the substitute amendment No. 1004 which is at the desk; the amendment offered by Senator McCain which is at the desk that has been agreed to by both sides as part of this agreement on the first amendment; the text of the rule adopted at the meeting of the House and Senate Committees on Rules and Administration on April 23 regarding rule XIV on the appointment of a counsel to the Committee on the Judiciary, provided
+
+Success_rate: 0.6666666666666666
+Perplexity: 27.202307689212024
+Time_needed: 36.89987778663635
+Success_length: 0.0
+2_distint_rate: 0.6641
+3_distint_rate: 0.7953
+4_distint_rate: 0.8492
+
+Keywords: 
+works mitchell choose 
+
+Final sequence: 
+
+<|endoftext|>not less than $750,000 is available for the benefit of the American artists to purchase works not subject to the disposition provisions for performance and use in a performance or use in the offering of prizes or other intangible items. The Committee will be made aware of any need for these funds, and will consider whether to make available funds or ask that the funds be allocated among competing firms to enable them to select the most appropriate artists to participate.  These funds will be available only if the Rules Committee determines it is appropriate to do so. I understand that the budget that is before us does provide for consideration of such alternatives, and if that is the
+
+Success_rate: 0.3333333333333333
+Perplexity: 36.790305925575964
+Time_needed: 31.185214519500732
+Success_length: 0.0
+2_distint_rate: 0.9048
+3_distint_rate: 1.0000
+4_distint_rate: 1.0000
+
+Keywords: 
+members jersey consent 
+
+Final sequence: 
+
+Mr. Speaker, just for Members to inform us in advance that the pending rule on the motion to rise provides for consideration of H.R. 483. If a Member desires to offer an amendment to that rule at the time of the motion to rise, they should notify the Rules Committee no later than Friday, September 27. Members should notify the Rules Committee no later than Tuesday, September 30, if they wish to offer a motion to rise to that measure.  The House will convene on Wednesday at 12:30 p.m. for morning hour and 2 p.m. for legislative business and will consider several measures under a consent agreement entered
+
+Success_rate: 0.6666666666666666
+Perplexity: 24.27445383304221
+Time_needed: 29.465623140335083
+Success_length: 0.0
+2_distint_rate: 0.7231
+3_distint_rate: 0.8217
+4_distint_rate: 0.8750
+
+Keywords: 
+community korean-american korean 
+
+Final sequence: 
+
+Madam President, I ask unanimous consent that the committee-reported amendment be agreed to, the bill be deemed read a third time and passed as amended, the motion to reconsider be laid upon the table, with no intervening action or debate, and that any statements related to the bill be placed in the Record at the appropriate place as if read. The  wax and paper of the bill now constitute the committee-reported amendment to the bill H.R. 2404.  The  because I was able to ask the chairman of the Energy and Water appropriations subcommittee to ask him a question before he asked the second amendment to allow people to come in here and
+
+Success_rate: 0.0
+Perplexity: 63.92064323300469
+Time_needed: 43.44109630584717
+Success_length: 0.0
+2_distint_rate: 0.8000
+3_distint_rate: 0.9225
+4_distint_rate: 0.9688
+
+Keywords: 
+pitfalls authorized donations 
+
+Final sequence: 
+
+Mr. President, I thank the distinguished Senator from Alaska. The Senator from West Virginia and I are at odds here. There is not enough time to fully examine what we are debating here. I think the distinguished Senator from West Virginia makes an appropriate point that there is another option to consider. That is the Department of Defense authorization bill. I ask my friend from Alaska if he would have support for that Department of Defense authorization bill.   dispatches troops to places where, for a period of time, the United States does not have that capacity to be able to sustain itself.               
+
+Success_rate: 0.3333333333333333
+Perplexity: 23.319498274151428
+Time_needed: 36.776912689208984
+Success_length: 0.0
+2_distint_rate: 0.6615
+3_distint_rate: 0.7597
+4_distint_rate: 0.8281
+
+Keywords: 
+restore investment chu 
+
+Final sequence: 
+
+Mr. President, today the Senate is voting on the future of the Federal Prison Industries [FPI] Corporation. As many of my colleagues know, I have worked hard to reform the Federal Bureau of Prisons for the better. I have held some of the greatest discussions with Federal prisoners and their families about ways to restore the quality of life for those who have been incarcerated. I have given them the help they need to deal with their substance abuse problems and their health care needs.  In the last 5 years, I have worked with the hardworking Federal employees at FPI. Over time, some in the business community have proposed taking FPI public but
+
+Success_rate: 0.3333333333333333
+Perplexity: 23.503185459688336
+Time_needed: 35.936211347579956
+Success_length: 0.0
+2_distint_rate: 0.8615
+3_distint_rate: 0.9535
+4_distint_rate: 0.9844
+
+Keywords: 
+read president printed 
+
+Final sequence: 
+
+Mr. President, I ask unanimous consent that the Committee on Foreign Relations be authorized to meet during the session of the Senate on Wednesday, October 7, at 10 a.m. to hold a hearing on President-elect Mr. Ahmadinejad and his statements on the Holocaust.  The  Senators who will preside are Mr. Obama, Mrs. Clinton, Mr. McCain, and Mr. Risch of Idaho.  The variable number of witnesses will be determined by the chairman of the committee with an alternating sequence of those in that order from the Director of National Intelligence and the Department of Justice.  The  pitches will be printed in the
+
+Success_rate: 0.6666666666666666
+Perplexity: 22.042943856550355
+Time_needed: 32.86464500427246
+Success_length: 0.0
+2_distint_rate: 0.8760
+3_distint_rate: 0.9609
+4_distint_rate: 0.9843
+
+Keywords: 
+fuels troops afghanistan 
+
+Final sequence: 
+
+<|endoftext|>Senator, I thank the chairman for all the help he has given me and the staff over the years. It has been a hard slog fighting for rural America here in the Senate, and I thank them for it. I know it is their way of saying that I have taken care of a lot of my rural States as ranking member on the Agriculture Committee. I look forward to working with them in the future, and I thank the chairman for his support and help in the years ahead.  Mr. President, I ask unanimous consent that when the Senate completes its business today, it stand in recess until the hour of 9 a.m.,
+
+Success_rate: 0.0
+Perplexity: 21.304528765152426
+Time_needed: 42.821617126464844
+Success_length: 0.0
+2_distint_rate: 0.8110
+3_distint_rate: 0.9206
+4_distint_rate: 0.9520
+
+Keywords: 
+state fund coronavirus 
+
+Final sequence: 
+
+Madam Speaker, as the Republican Congress worked its way through an all-night session last week trying to end the government shutdown while paying for a $16 billion tax cut for the wealthy, we learned that the House GOP plan includes a tax hike of $21 billion on those families making less than $200,000 a year and $48 billion on those families making more than $200,000 a year. That is not a plan to create jobs. That is a tax hike to fund a tax cut for the wealthy that will not create any jobs.  The reason that we cannot pay for a tax cut for the rich is because this bill does not
+
+Success_rate: 0.3333333333333333
+Perplexity: 13.408557796038005
+Time_needed: 39.843679666519165
+Success_length: 0.0
+2_distint_rate: 0.6538
+3_distint_rate: 0.7674
+4_distint_rate: 0.8516
+
+Keywords: 
+address policy forces 
+
+Final sequence: 
+
+Mr. Speaker, I rise in opposition to the rule on H.R. 4556 because it has more obstacles in front of it than just addressing a problematic program that is not being implemented and could have been helped by the legislation before us.  The reason for this opposition is the necessity for an independent study of the out-of-control spending that is being done by the Department of Defense, or DOD. I would argue that the Department of Defense has been too easy to stand up on. We have all seen the new government-run health care system called Medicare or the increased prescription drug prices that are being charged to seniors and other Americans under the
+
+Success_rate: 0.3333333333333333
+Perplexity: 31.020019245413643
+Time_needed: 32.31368613243103
+Success_length: 0.0
+2_distint_rate: 0.9231
+3_distint_rate: 0.9690
+4_distint_rate: 0.9844
+
+Keywords: 
+level president chairman 
+
+Final sequence: 
+
+Mr. President, today I would like to recognize October 27 as Interfaith Schools Day. This celebration is important to more than 40 of the Nation's 100 largest school districts with over a million students in them. There are so many reasons to celebrate this day.  In addition to its educational impact, this national day will support the national and State organizations and organizations working to end school violence and prevent the same in the future. The number of school violence incidents is increasing due to heightened concerns of over safety and school sexual abuse among children and the community. The level of concern for these issues has been led by the President's Council of Chief State School Officers and
+
+Success_rate: 0.6666666666666666
+Perplexity: 34.1244629251147
+Time_needed: 39.9581401348114
+Success_length: 0.0
+2_distint_rate: 0.9692
+3_distint_rate: 1.0000
+4_distint_rate: 1.0000
+
+Keywords: 
+west president house 
+
+Final sequence: 
+
+<|endoftext|>ROSIE DUNCAN is the Republican Senate leader of the U.S. Senate and a woman who has for decades stood up for her people and those in need of dignity and respect and the rule of law around the world. For that she will be remembered and is coming home after the end of her term in the Senate. For that she will be remembered and will be remembered forever in the Senate as a tough but fair Republican who has put her country and the people she serves above all other considerations in the Senate. She will be remembered as a master legislator and a tough Senate fight dog who will forever be remembered by this Chamber and
+
+Success_rate: 0.0
+Perplexity: 21.22526025227196
+Time_needed: 43.5368492603302
+Success_length: 0.0
+2_distint_rate: 0.7087
+3_distint_rate: 0.8492
+4_distint_rate: 0.9040
+
+Keywords: 
+announce massachusetts delaware 
+
+Final sequence: 
+
+<|endoftext|>This week the Federal Government will announce it has implemented new spending authority. This authority will enable the Treasury Department to continue a program in which the Federal Government funds annual projects in communities where the Federal Government has an interest. Some of these projects range from new public education initiatives to college research to trail maintenance and visitor services for the National Park System.  There is, in fact, a program for local government, the Federal Community Assistance Program [FACP], which provides local governments with financial support to address public assistance and community development needs. It is my hope that the Senator from Massachusetts will continue to vigorously oppose proposals to eliminate this program, and for
+
+Success_rate: 0.6666666666666666
+Perplexity: 31.196226025252763
+Time_needed: 28.462645530700684
+Success_length: 0.0
+2_distint_rate: 0.9291
+3_distint_rate: 0.9762
+4_distint_rate: 1.0000
+
+Keywords: 
+senator asserting yield 
+
+Final sequence: 
+
+Mr. President, the Senator from Missouri may be on his way to the floor now to make a few remarks on this issue. But I will yield the floor and say that we support the provisions in the legislation before us.  As I said earlier, we support a flexible income system. There is not the desire to prevent flexibility in any of the measures that we have in front of us. But the framework here allows that to happen because we have not raised taxes on the middle class in this country--the country has not--and we have not raised taxes on the working poor in this country because that is what the tax reforms in this legislation would do
+
+Success_rate: 0.6666666666666666
+Perplexity: 24.505757515902378
+Time_needed: 19.755803108215332
+Success_length: 0.0
+2_distint_rate: 0.7846
+3_distint_rate: 0.9070
+4_distint_rate: 0.9375
+
+Keywords: 
+people president work 
+
+Final sequence: 
+
+Mr. President, the time is at hand to make sure the people of this country have a say in how their tax money is being spent. If they do not want to be used to build another Federal Government with a Federal worker taking over all of the work of the other government, they want to make sure they know where their money is going to go. And we all support the President's line-item veto. But this amendment strikes that line-item veto.  Mr. President, I don't think there are too many people in this Senate who believe the first amendment applies to a restriction of any type. There have been an awful lot of
+
+Success_rate: 1.0
+Perplexity: 25.03854174334873
+Time_needed: 16.58248543739319
+Success_length: 0.5859375
+2_distint_rate: 0.8308
+3_distint_rate: 0.9225
+4_distint_rate: 0.9688
+
+Keywords: 
+collections stokes funding 
+
+Final sequence: 
+
+Mr. Chairman, I rise in opposition to the amendment. I think it is important that we understand what we are doing today. We are not, nor should we be allowing the Department of Homeland Security to prohibit individuals from buying firearms at gun shows. As the administration and I both understand, every other major law enforcement agency can either close its doors or enter into agreements to permit it to continue providing firearms to individuals and businesses on a voluntary basis without any government requirement for such assistance. That is in fact what this amendment attempts to achieve. We want to empower State and local governments to have the ability to provide the security they think is necessary for their own communities
+
+Success_rate: 0.0
+Perplexity: 19.594362542669522
+Time_needed: 42.853575468063354
+Success_length: 0.0
+2_distint_rate: 0.9846
+3_distint_rate: 1.0000
+4_distint_rate: 1.0000
+
+Keywords: 
+jordan cody league 
+
+Final sequence: 
+
+Mr. Speaker, we will be in a position to offer any amendments that Members wish to offer and that the Rules Committee may choose to rule on and adopt those amendments to the bill at a later time.  Mr. Speaker, I reserve the balance of my time.   Valve.  The SPEAKER pro tempore. Without objection, the previous question is ordered on the motion to recommit.  There was no objection.  The SPEAKER pro tempore. The question is on the motion to recommit.  The question was taken; and the Speaker pro tempore announced that the noes appeared to have it.
+
+Success_rate: 0.0
+Perplexity: 33.92652312665127
+Time_needed: 43.43144178390503
+Success_length: 0.0
+2_distint_rate: 0.5923
+3_distint_rate: 0.7209
+4_distint_rate: 0.7969
+
+Keywords: 
+north campus college 
+
+Final sequence: 
+
+Mr. President, first, I wish to say to the distinguished Senator from North Carolina and the distinguished Senator from Virginia that they and the other managers of the bill, as well as the distinguished Senator from Iowa, have very much been involved in this discussion and this struggle for a good several days, in a way very few have been involved in it in years. This does require a bit of preparation and a great deal of thought and effort on their part because the nature of this legislation and of the committee that has been established in the wake of the new Democratic majority is the first and last time we are going to face the Congress in its power without an all
+
+Success_rate: 0.3333333333333333
+Perplexity: 28.184926599096887
+Time_needed: 31.31331467628479
+Success_length: 0.0
+2_distint_rate: 0.8615
+3_distint_rate: 0.9380
+4_distint_rate: 0.9766
+
+Keywords: 
+promise habit notice 
+
+Final sequence: 
+
+<|endoftext|>American workers need to know there are alternatives to being turned down on the job in order to bring our economy back. If we fail to address this crisis today in the Senate, the Federal Reserve will raise interest rates, causing more unemployment in the future for those who need jobs the most. With the alternative of higher taxes in the future, employers will want to reduce their employees to those that can pay their own bills. This will force the Federal Government to raise taxes to pay for our job training programs and education and health care programs that will be so much better for the future of our country if we stay on the course we are on right now
+
+Success_rate: 0.0
+Perplexity: 24.30016385339217
+Time_needed: 43.17894673347473
+Success_length: 0.0
+2_distint_rate: 0.9213
+3_distint_rate: 0.9841
+4_distint_rate: 1.0000
+
+Keywords: 
+american washington government 
+
+Final sequence: 
+
+Mr. President, there is one point that I wish to make before the Senator from Michigan makes his statement about the other States, because that has to be the goal. It is the goal that the Senator has reached before we leave here and that the country reached before the Government shut down or the American people shut down, and that is to have a Government shutdown that does not keep people from going to work, that does not keep people from getting paid because they have to be paid for work and that has to be done through the appropriations process as opposed to a shutdown that we see in Washington today.  Now, obviously there are differences in the amount of
+
+Success_rate: 1.0
+Perplexity: 21.401016385025763
+Time_needed: 26.36229395866394
+Success_length: 0.8984375
+2_distint_rate: 0.7385
+3_distint_rate: 0.9070
+4_distint_rate: 0.9375
+
+Keywords: 
+gas oklahoma today 
+
+Final sequence: 
+
+Madam Speaker, I rise today to honor the American Small Business Week that is scheduled to take place from March 16 through March 23 of this year. During this week, we will be celebrating the workers in America who create the most efficient and productive jobs in the world. Small businesses represent 20 percent of the Nation's total workforce but only account for 16 percent of new jobs created over the past 10 years.  By reducing costs and increasing employee participation in small businesses, we will help the U.S. remain the competitive global leader in this critical sector of our economy. As the 113th Congress draws to a close, I would like to recognize the small
+
+Success_rate: 0.3333333333333333
+Perplexity: 19.64595876633418
+Time_needed: 30.158209562301636
+Success_length: 0.0
+2_distint_rate: 0.9385
+3_distint_rate: 0.9845
+4_distint_rate: 1.0000
+
+Keywords: 
+forward georgia move 
+
+Final sequence: 
+
+<|endoftext|>I rise to engage in a colloquy with my distinguished colleague from Georgia regarding the progress of the implementation of the $1.4 billion in necessary Federal aid to communities across the Nation which the President and the Congress have authorized through the emergency economic rescue package to help pay for critical municipal assistance to reduce the high cost of home energy costs.  The President and the Congress authorized a total of $5 billion in the fiscal year 2005 Emergency Economic Stabilization Act for the Federal Emergency Management Agency and the Emergency Economic Stabilization Act to be available to assist with the local home energy assistance programs to be designed and to be implemented beginning in the
+
+Success_rate: 0.3333333333333333
+Perplexity: 32.48730072503583
+Time_needed: 30.789265871047974
+Success_length: 0.0
+2_distint_rate: 0.7953
+3_distint_rate: 0.9048
+4_distint_rate: 0.9360
+
+Keywords: 
+reform agriculture act 
+
+Final sequence: 
+
+Mr. President, I will continue to work with my colleagues as we work through the legislation to come up with a bill that meets the needs of all of our service men and women and our veterans. I will continue to take this very seriously and work with the Senate in the coming months to see to it that we move this legislation so that it is enacted.  Mr. President, I suggest the absence of a quorum.  The ACTING PRESIDENT pro tempore. The clerk will call the roll.  The legislative clerk proceeded to call the roll.   Zedek Samuel Johnson of Massachusetts.       Alexander   
+
+Success_rate: 0.3333333333333333
+Perplexity: 28.532926081764096
+Time_needed: 38.081268548965454
+Success_length: 0.0
+2_distint_rate: 0.7308
+3_distint_rate: 0.8217
+4_distint_rate: 0.9141
+
+Keywords: 
+pick gentleman children 
+
+Final sequence: 
+
+Mr. Chairman, I want to engage in a colloquy with the gentleman from Florida [Mr. Gibbons].  I have been working on this issue since it first came up in the summer of 1995 when the Coast Guard was unable to find the sailors on the first search of this channel, which I think could have been the case had it not been for the work of my staff. In fact I just held a hearing with members of the Coast Guard and others and they all agreed there was not a gap on this channel and they wanted to do something about it and they are already taking the necessary steps. For example the Coast Guard is now in
+
+Success_rate: 0.3333333333333333
+Perplexity: 22.192276432892086
+Time_needed: 30.529733180999756
+Success_length: 0.0
+2_distint_rate: 0.8692
+3_distint_rate: 0.9767
+4_distint_rate: 1.0000
+
+Keywords: 
+important family today 
+
+Final sequence: 
+
+Mr. President, we are now going to proceed to the consideration of S. 1028, the Iraq supplemental. I want to begin by first thanking our friends on the other side of the aisle who have been very helpful and that this is a bill that our country should not be in the position we are in today as a consequence of the loss of life that occurred in the wake of the tragic events of September 11. We can appreciate the fact that we are dealing with a situation that is indeed very difficult for this country to understand.  It is also important to note that this is a bill that we have all worked together on because there is not a
+
+Success_rate: 0.6666666666666666
+Perplexity: 18.679818990768748
+Time_needed: 35.1460280418396
+Success_length: 0.0
+2_distint_rate: 0.8462
+3_distint_rate: 0.9380
+4_distint_rate: 0.9531
+
+Keywords: 
+ohio plan speaker 
+
+Final sequence: 
+
+Mr. Speaker, I ask unanimous consent that all Members may have 5 legislative days within which to revise and extend their remarks and to include extraneous material on H.R. 3217 currently under consideration.  The SPEAKER pro tempore. Is there objection to the request of the gentleman from Ohio?  There was no objection.   1994 Legislation: Financial Services. A bill to require the Secretary of the Treasury to implement legislation that will create a model for the conduct of financial institutions under the jurisdiction of the Financial Stability Oversight Council (``FSC''); to provide for the oversight of financial institutions to ensure that they provide proper information to
+
+Success_rate: 0.6666666666666666
+Perplexity: 46.134392099059
+Time_needed: 27.045867681503296
+Success_length: 0.0
+2_distint_rate: 0.9154
+3_distint_rate: 0.9845
+4_distint_rate: 1.0000
+
+Keywords: 
+evening reserving request 
+
+Final sequence: 
+
+<|endoftext|>Bills were not taken up today because Democrats decided they were too controversial to be taken up by the Senate. The fact is, Democrats will be voting today to provide tax breaks to the American people to keep the Government running until July 24 because it will stop the next government shutdown. There is no time to waste on this bill. The President needs to veto it immediately to keep the Government open so we can finish the jobs program that the American people sent him to do. The Senate should not be in the business of putting amendments on bills to make sure that no one gets a tax break for making sure the government is not shut down and that
+
+Success_rate: 0.0
+Perplexity: 22.95898655059158
+Time_needed: 44.905449628829956
+Success_length: 0.0
+2_distint_rate: 0.8819
+3_distint_rate: 0.9524
+4_distint_rate: 0.9840
+
+Keywords: 
+idaho legacy fame 
+
+Final sequence: 
+
+Mr. Speaker, I yield myself such time as I may consume.  Mr. Speaker, I thank the gentlewoman for the time.  As you may have heard, last week was a devastating winter storm that killed 40 in Minnesota and Illinois and displaced over 1.5 million people. My own State was hit particularly hard because we lost about 600 lives to snowdrifts and other dangers in the Midwest. While we are still recovering, the Federal Government is doing all it can to help our neighbors who were devastated by this terrible tragedy.  The Snow Emergency Relief Fund is one of the most successful Federal programs in decades and will help provide winter aid to
+
+Success_rate: 0.0
+Perplexity: 34.84089151241809
+Time_needed: 43.57808756828308
+Success_length: 0.0
+2_distint_rate: 0.9308
+3_distint_rate: 0.9690
+4_distint_rate: 0.9844
+
