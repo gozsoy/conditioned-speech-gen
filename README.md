@@ -125,6 +125,7 @@ Change line 42 experiment name with the name you find when you go to 'results/fo
 
 Create a temporary .py file, and run only once, and delete the temporary .py file: (data_dir is the same with line 15)
 ```
+import os
 import pandas as pd
 quality_fake_df = pd.DataFrame(columns=['speech','perplexity'])
 quality_fake_df.to_csv(os.path.join(data_dir,'quality_fake_df.csv'),index=False)
