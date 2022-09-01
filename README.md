@@ -29,7 +29,7 @@ You do not need to run each of these steps. However, please make sure that you d
 + If all 'shard0, ..., shard9' subfolders in 'results/' folder has generated outputs such as 'results/shard0/finetunedgptmed_lr2e5_epoch2/Result_w_5.0_nBeams_1_nGenSent_128_nWordsPerSent_1_topP_0.9_WC_Guar_True_glove_maxSENTENCES.txt', skip Step 4. (currently like this.)
 + If you have access to 'quality_fake_df.csv', skip Step 5.
 
-'resushardx/experiment_name/your_experiment
+For access to above files, go to https://polybox.ethz.ch/index.php/s/qbGQzAyefAjS13N. Access only available internally.
 
 ## Step 1: Preprocess Corpus
 
@@ -63,11 +63,11 @@ Go to extract_keywords.py.
 
 Change line 8 with your gensim data dir (e.g. os.environ['GENSIM_DATA_DIR']='/cluster/scratch/{eth_username}/nlp_lss_datasets').
 
-Change line 9 with the dir of 'processed_df_valid.csv'. (e.g.  '/cluster/scratch/{eth_username}/nlp_lss_datasets/processed_df_valid.csv')
+Change line 9 with the dir of 'processed_df_valid.csv'. (e.g.  '/cluster/scratch/{eth_username}/nlp_lss_datasets')
 
 Change line 10 with your preferred keyword_file_name (e.g. 'valid_df_keywords_20k.txt').
 
-Note total_shard in line 17. Make sure that 'results/' folder has subfolders named shard0, shard1, ..., shard{total_shard-1}. (Default codebase is as such.)
+Note total_shard in line 17. Make sure that 'results/' folder has subfolders named shard0, shard1, ..., shard{total_shard-1}. (currently like this.)
 
 Then
 ```
