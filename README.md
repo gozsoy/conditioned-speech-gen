@@ -147,4 +147,4 @@ Then run on GPU with
 bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "select[gpu_model0==NVIDIAGeForceRTX2080Ti]" python train_quality_evaluator.py
 ```
 
-Note: This repository borrows code from https://github.com/dapascual/K2T
+Note: This repository borrows code from https://github.com/dapascual/K2T, and modifies. (utility_gpt.py, k2t.py, perplexity.py, encode_keywords.py)
