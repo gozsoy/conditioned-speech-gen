@@ -35,7 +35,7 @@ You do not need to run each of these steps. However, please make sure that you d
 
 We assume that you have access to raw corpus directory indicated in line 8.
 
-Go to process_corpus.py, and change line 9 with your save_dir (e.g. '/cluster/scratch/{eth_username}/nlp_lss_datasets').
+Go to process_corpus.py, and change line 9 with your save_dir (e.g. '/cluster/scratch/{eth_username}/nlp_lss_datasets'). If you have access to 'processed_df_train.csv' and 'processed_df_valid.csv' files, put them under this directory.
 
 Then
 ```
@@ -44,13 +44,11 @@ python process_corpus.py
 
 ## Step 2: Fine-tune GPT-2
 
-Pass if you have access to finetuned checkpoint.
-
 Go to config.yml.
 
 Change data_path (e.g. '/cluster/scratch/{eth_username}/nlp_lss_datasets').
 
-Change checkpoint_dir (e.g. '/cluster/scratch/{eth_username}/nlp_lss_checkpoints').
+Change checkpoint_dir (e.g. '/cluster/scratch/{eth_username}/nlp_lss_checkpoints'). If you have access to finetuned checkpoint, put it under this directory.
 
 Change experiment name and other hyperparameters.
 
@@ -142,7 +140,7 @@ bsub -n 4 -W 23:59 -o euler_message -R "rusage[mem=4096, ngpus_excl_p=1]" -R "se
 
 Go to train_quality_evaluator.py.
 
-Change line 15 data_dir with the dir 'processed_df_valid.csv' is saved on (e.g.  '/cluster/scratch/{eth_username}/nlp_lss_datasets).
+Change line 15 data_dir with the dir 'processed_df_valid.csv' is saved on (e.g.  '/cluster/scratch/{eth_username}/nlp_lss_datasets). If you have access to 'processed_df_valid.csv' and 'quality_fake_df.csv' files, put them under this directory.
 
 Then run on GPU with
 ```
