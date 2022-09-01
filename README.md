@@ -22,7 +22,7 @@ module load gcc/8.2.0 python_gpu/3.9.9 eth_proxy
 conda activate cond_text_gen_project
 ```
 ## Note
-You do not need to run each of these steps. However, please make sure that you do the corresponding path changes outlined at each step.
+You do not need to run each of the upcoming steps. However, please make sure that you do the corresponding path changes outlined at each step.
 + If you have access to 'processed_df_train.csv' and 'processed_df_valid.csv' files, skip Step 1.
 + If you have access to pretrained checkpoint such as '18aug_k2t_gpt2medium_maxseqlen256_batch8_8_lr2e5_epoch2.pt', skip Step 2.
 + If all 'shard0, ..., shard9' subfolders in 'data/' folder has 'keyword.txt' file, skip Step 3. (currently like this.)
