@@ -1,0 +1,195 @@
+Keywords: 
+years time today 
+
+Final sequence: 
+
+Mr. Speaker, I appreciate the gentleman yielding to me. I hope that after I speak and I have time for some neighorhood meetings, maybe I will be back here with my wife this weekend and it would be more important that we have a good time talking to the people and that we are able to get to a place where we can finally get the message out that people want real health care and they are going to have it for a long time and that they are going to have it now that they are going to have it and that we are not just going to get this one thing done in the last year here and then say we are done here and move on to the next thing that will get the people here and the country so that we are going to get it here and move on to the next thing that will get the
+
+Success_rate: 0.6666666666666666
+Perplexity: 15.331596923902344
+Time_needed: 25.80642342567444
+Success_length: 0.0
+2_distint_rate: 0.6347
+3_distint_rate: 0.7590
+4_distint_rate: 0.8242
+
+Keywords: 
+private filibuster slashed 
+
+Final sequence: 
+
+So do you get, my colleagues, the hypocrisy? They slashed the tax collectors, paid eight people in their place, and slashed the deficit by $10 billion and then the following week the Defense Department and the other agencies all cut another one or two people.  There are those in the Congress who are here because they are hurting the system that the Members of this body work in and the Government that is funded in that system. That is what they are talking about this morning in the Committee on the Budget of this country saying we are not going to help when in fact we are going to pay for this out of the accounts of those who are in the private sector.  And so my friends are on the wrong track here, and they are falling short of the mark. We need to go further. There is no gentleman that is in this
+
+Success_rate: 0.6666666666666666
+Perplexity: 35.20188137278927
+Time_needed: 27.31168007850647
+Success_length: 0.0
+2_distint_rate: 0.8333
+3_distint_rate: 1.0000
+4_distint_rate: 1.0000
+
+Keywords: 
+applicable reconsider desk 
+
+Final sequence: 
+
+I ask unanimous consent that it be in order for the Senate to consider en bloc the following items on the calendar which were ordered to be printed in the Congressional Record on Wednesday: Calendar No. 491.  I further ask unanimous consent that it be in order for the Senate to consider these items en bloc and that they be considered read a third time and passed en bloc.  The  Eggs And Barley should be recalled if it is appropriate for that to be done as a matter of Senate order, that the motion be agreed to and the motion to reconsider be laid upon the table.  The  Safe Viewer in hand, Mr. President. I ask unanimous consent that the committee-reported amendment be agreed to and that the amendment be considered as read.  The          
+
+Success_rate: 0.3333333333333333
+Perplexity: 34.53858360566307
+Time_needed: 38.53857779502869
+Success_length: 0.0
+2_distint_rate: 0.5854
+3_distint_rate: 0.7423
+4_distint_rate: 0.7963
+
+Keywords: 
+president bill crisis 
+
+Final sequence: 
+
+Mr. President, the smoke is housing crisis foreclosures. The fire is the general economy because of economic policies of President Obama. Today in the United States of America over 5 million Americans have no jobs. In the past year the unemployment rate for the age group of between 18 and 24 was 10 percent, while today it is 8 percent and the unemployment rate for the 35 to 44-year-old is even worse. In fact today the young people today are not eligible for Medicare because of a Government takeover that would give health insurance to every American, not just those over the age of 55, but also for the young people over 35 who are the group who will pay the bill in the future. The skyrocketing health care costs that are out of control have caused the economic collapse in America and this crisis in our Nation.  Since President
+
+Success_rate: 1.0
+Perplexity: 24.099638865373073
+Time_needed: 26.557672023773193
+Success_length: 0.9533333333333334
+2_distint_rate: 0.8647
+3_distint_rate: 0.9527
+4_distint_rate: 0.9762
+
+Keywords: 
+yield hastings consume 
+
+Final sequence: 
+
+Mr. Speaker, I yield myself such time as I may consume. Mr. Speaker, I want to offer my strong support for H.R. 4137, the Safe Drinking Water Act of 2003. This important legislation provides long overdue updates to a law which we have always championed: the Safe Drinking Water Act of 1980. H.R. 4137 is cosponsored by 12 House Members, and passed the House of Representatives by unanimous consent on December 5, 2003. H.R. 4137 was reported out of the Committee on Resources by voice vote on January 20, 2004. Mr. Speaker, we are on the verge of passing a very important piece of legislation that addresses the safety of drinking water supplies in the United States of America. The first bill introduced in this Congress was the Safe Drinking Water Act of 1988, which provided Federal funds
+
+Success_rate: 0.0
+Perplexity: 14.09737294905676
+Time_needed: 42.323275327682495
+Success_length: 0.0
+2_distint_rate: 0.7278
+3_distint_rate: 0.7917
+4_distint_rate: 0.8443
+
+Keywords: 
+gloom uncle spend 
+
+Final sequence: 
+
+Mr. Speaker, the gloom, doom, and depressed say the economy is in trouble. The naysayer's gloom, doom, and depressed say we will lose everything we have.  Well, what do we know about the economy going down? We know something about it going down because Federal budget deficits are the fastest growing area of the budget deficit in our Nation today. We know it because last week our Federal budget deficit was $9.2 trillion. This week it will grow to $10 trillion. $10 trillion more than it was in September last year when we were facing $9 trillion deficit and only $10 trillion deficit last year.  This week was more of the same. This week $9 trillion and more in budget deficits because of over $9 trillion more in spending in the Federal budget than we had before this economy was in trouble. 
+
+Success_rate: 0.6666666666666666
+Perplexity: 24.239366569808055
+Time_needed: 28.1181321144104
+Success_length: 0.0
+2_distint_rate: 0.6279
+3_distint_rate: 0.8830
+4_distint_rate: 0.9529
+
+Keywords: 
+republican break rid 
+
+Final sequence: 
+
+Mr. Chairman, I yield myself such time as I may consume. I listened to my good friend from Ohio. I am one that wants to help working families get ahead in their own lives. I want to give them the tools to make that happen without increasing the cost of doing so. I want to help them build a more prosperous future. I want to give them the best chance possible to get ahead and have a good life. And when I see a President that has a free press like President Bush did not have, when I see a President that had a presidential commission that had much support from Republicans and Democrats before it came up in his first term to look at what needs to be done to bring down the deficit and to give more money to the President, I want to be in his corner and there to help him come up with
+
+Success_rate: 0.3333333333333333
+Perplexity: 20.969422590836167
+Time_needed: 39.13732862472534
+Success_length: 0.0
+2_distint_rate: 0.7425
+3_distint_rate: 0.8735
+4_distint_rate: 0.9091
+
+Keywords: 
+taking people clinton 
+
+Final sequence: 
+
+Mr. Speaker, every day in this country men and women get up at the crack of dawn to run for their lives to put an end to war in our country and to bring to justice those who have done us so much wrong to begin with and those that have done us harm to end with, to protect this Nation from future mistakes and from people who want to hurt us in our own home by taking away our guns. They try every day to do it and they succeed every day in making sure that Congress is going to make it right when it comes to those who put the country on this wrong path by taking away the right to bear arms in this country. We have had good Americans over the years who have come to Congress because they wanted to be a part of that bipartisan effort to make sure that guns never would be available in
+
+Success_rate: 0.6666666666666666
+Perplexity: 23.103577339499562
+Time_needed: 26.599785327911377
+Success_length: 0.0
+2_distint_rate: 0.8373
+3_distint_rate: 0.9515
+4_distint_rate: 1.0000
+
+Keywords: 
+assistance yugoslavia considered 
+
+Final sequence: 
+
+Mr. Speaker, I thank the distinguised chairman, the gentleman from New York [Mr. Gilman], for the fine work he has done for the Nation over these many years as a Member of this body, as well as in other capacities over the years.  While I was here many years ago, it is with great pleasure that I come to the floor to support this legislation of the gentleman from Texas [Mr. Fields]. His leadership is truly a model of what a Member of this body should be doing in this instance.  It is indeed a fitting time now for this legislation to be considered by this House because the rights of the victims and the security of the Nation are at stake here in the Senate. I want to particularly thank the staff on both sides of the aisle for the fine work they have done over the years to ensure that this House was
+
+Success_rate: 0.3333333333333333
+Perplexity: 21.475528585780715
+Time_needed: 39.66540026664734
+Success_length: 0.0
+2_distint_rate: 0.7442
+3_distint_rate: 0.9064
+4_distint_rate: 0.9647
+
+Keywords: 
+labor forced speaker 
+
+Final sequence: 
+
+Madam Speaker, I thank Mr. Castro for yielding. I thank Mr. Smith for his great leadership and for his advocacy on behalf of human rights and women and also for all his work in behalf of women in the Cuban judiciary and many other things in this body.  There have been many times when you have heard the Republican leadership come to the House floor and oppose women's rights and put up so much resistance to them and women's employment in this country in a labor debate, all because they were not able to get them to a majority vote on an appropriations bill to keep the Violence Against Women Act in the same year that it passed the House by an overwhelming bipartisan vote of 265 to 70. This would be a wrong approach and a wrong time to get involved in this kind of debate and to put up so much resistance to them.  That
+
+Success_rate: 0.3333333333333333
+Perplexity: 27.2779496968059
+Time_needed: 36.74010872840881
+Success_length: 0.0
+2_distint_rate: 0.7588
+3_distint_rate: 0.9172
+4_distint_rate: 0.9405
+
+Keywords: 
+iraq decisions narcotics 
+
+Final sequence: 
+
+Mr. Speaker, I would like to thank the Chairman for bringing this important issue to our attention and working in the Committee on Ways and Means to help make it clear that these funds are now available to American families who rely on the $2.6 billion in public housing authority vouchers that we have added to the President's request this year and that we were going to extend in the future. We are well aware of the fact that there are many that have to be used because of the fact that the current housing problem is so severe that they cannot be spent on any other purpose, and that is why we are providing these funds and asking the administration to make sure that they are available to people in need.   postpone discussion on the budget resolution to report that as soon as possible to the American people.     make certain
+
+Success_rate: 0.0
+Perplexity: 19.880671952775568
+Time_needed: 44.05737829208374
+Success_length: 0.0
+2_distint_rate: 0.8323
+3_distint_rate: 0.9518
+4_distint_rate: 0.9879
+
+Keywords: 
+stories america true 
+
+Final sequence: 
+
+Mr. President, over the last many months millions of Americans have signed up for affordable healthcare in this country and put away a bit of money they are going to have to go out and purchase what they need to be able to keep their family in their home and provide for their children. It is a true American story and I am proud to support this bill that will make some major changes in the way we are paying for health care in America.  Today, the Health Insurance Reform Priorities Act of 2010--H.R. 3072, the CLASS Act--makes it easier to get affordable, quality healthcare coverage for millions of Americans. It also makes it easier to keep some of the savings they have made through their investments in health care.  The CLASS Act was designed to give people the same incentives they have gotten for decades to
+
+Success_rate: 1.0
+Perplexity: 18.66523019129876
+Time_needed: 17.71951699256897
+Success_length: 0.47333333333333333
+2_distint_rate: 0.8675
+3_distint_rate: 0.9758
+4_distint_rate: 1.0000
+
+Keywords: 
+rule tempore ordered 
+
+Final sequence: 
+
+Mr. Speaker, on that I demand the yeas and nays. The yeas and nays were ordered.  The SPEAKER pro tempore. Pursuant to clause 8 of rule XX and the Chair's prior announcement, further proceedings on this motion will be postponed.<|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>                                                                                           
+
+Success_rate: 1.0
+Perplexity: 132.11052182296734
+Time_needed: 6.038912773132324
+Success_length: 0.13333333333333333
+2_distint_rate: 0.8621
+3_distint_rate: 0.8947
+4_distint_rate: 0.9286
+

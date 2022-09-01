@@ -45,7 +45,13 @@ def create_enc_dict(file_name, embedding, task):
             #keywords = list(line.strip().split(", "))
 
             # below is my addition with in_text as first keyword
-            keywords = list(line.strip().split(", "))[1:]
+            # old approach where separator is ,
+            #keywords = list(line.strip().split(", "))[1:]
+            
+            # separator ||
+            intext_keyword_list = list(line.strip().split('|| '))
+            keywords = list(intext_keyword_list[1].split(", "))
+            
 
             #print(keywords)
             for word in keywords:

@@ -207,17 +207,17 @@ def sample_sentence(text, this_sequence, tokenizer, model, keywords, enc_dict, g
     logits = F.softmax(logits, dim=-1)          
     # Deterministic beam search or sampling, if p!=1. it means nucleus sampling
     
-    counter = 0 # added to fix temporary bug
+    counter = 0
     predicted_index = 50256
     while guide and predicted_index == 50256:
-        counter += 1 # added to fix temporary bug
+        counter += 1
 
         if det_BS:
             predicted_index = torch.topk(logits, ith+1)[1][ith].item()
         else:
             predicted_index = torch.multinomial(logits, 1).item()
         
-        if counter > 100: # added to fix temporary bug
+        if counter > 100:
             predicted_index = random.randint(0,50255)
 
     # Get predicted word and indices
@@ -687,9 +687,16 @@ def get_keywordsets(task, folder_name, file_name):
             keyword_sets = []
 
             for line in lines:
-                intext_keyword_list = list(line.strip().split(", "))
-                keyword_sets.append((intext_keyword_list[0],intext_keyword_list[1:]))
+                # old approach where context keyword separator is ,
+                #intext_keyword_list = list(line.strip().split(", "))
+                #keyword_sets.append((intext_keyword_list[0],intext_keyword_list[1:]))
                 #keyword_sets.append((in_text,intext_keyword_list[1:]))
+
+                # || is used for separating prompt and keywords
+                intext_keyword_list = list(line.strip().split('|| '))
+                intext = intext_keyword_list[0]
+                keyword_list = list(intext_keyword_list[1].split(", "))
+                keyword_sets.append((intext,keyword_list))
 
             print(f'keyword sets here: {keyword_sets}')
 
@@ -743,7 +750,8 @@ if __name__ == '__main__':
     
     net = Net()
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-    checkpoint = torch.load('/cluster/scratch/goezsoy/nlp_lss_checkpoints/19aug_k2t_gpt2medium_maxseqlen256_batch8_8_lr3e5_epoch3.pt',map_location=device)
+    checkpoint = torch.load('/cluster/scratch/goezsoy/nlp_lss_checkpoints/24aug_k2t_gpt2medium_maxseqlen256_batch8_8_lr2e5_partyR_epoch2.pt',map_location=device)
+    print('model name: 24aug_k2t_gpt2medium_maxseqlen256_batch8_8_lr2e5_partyR_epoch2.pt')
     net.load_state_dict(checkpoint['model_state_dict'])
     print('model loaded')
     net.eval()

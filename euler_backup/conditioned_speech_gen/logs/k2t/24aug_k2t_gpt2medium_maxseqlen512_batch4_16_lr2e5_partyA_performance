@@ -1,2 +1,38 @@
 24-08-2022 23:26  - cfg: {'model': 'k2t', 'experiment_name': '24aug_k2t_gpt2medium_maxseqlen512_batch4_16_lr2e5_partyA', 'data_path': '/cluster/scratch/goezsoy/nlp_lss_datasets', 'log_dir': 'logs', 'checkpoint_dir': '/cluster/scratch/goezsoy/nlp_lss_checkpoints', 'epochs': 3, 'max_seq_len': 512, 'batch_size': 4, 'gradient_accumulations': 16, 'learning_rate': 2e-05, 'print_iter_freq': 500, 'prefix_len': 10, 'embed_size_per_token': 500, 'speaker_size': 28, 'freeze_gpt': False, 'encoded': 'encoded_parl_part_ids', 'latent_dim': 100, 'kl_weight': 1000.0, 'use_annealing': True, 'annealing_period': 200, 'party': 'all'}
 24-08-2022 23:26  - Using device: cuda:0
+24-08-2022 23:43  - train data loaded.
+24-08-2022 23:44  - valid data loaded.
+
+24-08-2022 23:46  - epoch: 1 / 3
+25-08-2022 00:36  - iter: 500 / 5877, iter_loss: 1.6520, iter_perplexity: 5.7049
+25-08-2022 01:27  - iter: 1000 / 5877, iter_loss: 1.4851, iter_perplexity: 4.6784
+25-08-2022 02:17  - iter: 1500 / 5877, iter_loss: 1.5674, iter_perplexity: 5.1633
+25-08-2022 03:07  - iter: 2000 / 5877, iter_loss: 1.6519, iter_perplexity: 5.6301
+25-08-2022 03:59  - iter: 2500 / 5877, iter_loss: 1.7609, iter_perplexity: 6.2920
+25-08-2022 04:49  - iter: 3000 / 5877, iter_loss: 1.3989, iter_perplexity: 4.1879
+25-08-2022 05:41  - iter: 3500 / 5877, iter_loss: 1.5557, iter_perplexity: 4.9922
+25-08-2022 06:31  - iter: 4000 / 5877, iter_loss: 1.5694, iter_perplexity: 5.1506
+25-08-2022 07:22  - iter: 4500 / 5877, iter_loss: 1.4565, iter_perplexity: 4.6316
+25-08-2022 08:12  - iter: 5000 / 5877, iter_loss: 1.6389, iter_perplexity: 5.7826
+25-08-2022 09:03  - iter: 5500 / 5877, iter_loss: 1.4735, iter_perplexity: 4.5029
+25-08-2022 09:51  - epoch: 1 / 3, train_loss: 1.5956, train_perplexity: 6.0944, val_loss: 1.5063, val_perplexity: 4.8567
+
+25-08-2022 09:51  - epoch: 2 / 3
+25-08-2022 10:42  - iter: 500 / 5877, iter_loss: 1.4627, iter_perplexity: 4.8316
+25-08-2022 11:33  - iter: 1000 / 5877, iter_loss: 1.6015, iter_perplexity: 5.2046
+25-08-2022 12:25  - iter: 1500 / 5877, iter_loss: 1.5967, iter_perplexity: 5.2599
+25-08-2022 13:16  - iter: 2000 / 5877, iter_loss: 1.3876, iter_perplexity: 4.1178
+25-08-2022 14:06  - iter: 2500 / 5877, iter_loss: 1.4916, iter_perplexity: 4.6948
+25-08-2022 14:57  - iter: 3000 / 5877, iter_loss: 1.4031, iter_perplexity: 4.2429
+25-08-2022 15:48  - iter: 3500 / 5877, iter_loss: 1.4953, iter_perplexity: 4.7557
+25-08-2022 16:38  - iter: 4000 / 5877, iter_loss: 1.6140, iter_perplexity: 5.3980
+25-08-2022 17:29  - iter: 4500 / 5877, iter_loss: 1.5933, iter_perplexity: 5.4082
+25-08-2022 18:20  - iter: 5000 / 5877, iter_loss: 1.5704, iter_perplexity: 5.2708
+25-08-2022 19:10  - iter: 5500 / 5877, iter_loss: 1.7021, iter_perplexity: 5.9404
+25-08-2022 19:57  - epoch: 2 / 3, train_loss: 1.5265, train_perplexity: 4.9700, val_loss: 1.4895, val_perplexity: 4.7706
+
+25-08-2022 19:57  - epoch: 3 / 3
+25-08-2022 20:47  - iter: 500 / 5877, iter_loss: 1.4648, iter_perplexity: 4.5201
+25-08-2022 21:38  - iter: 1000 / 5877, iter_loss: 1.5250, iter_perplexity: 4.9678
+25-08-2022 22:29  - iter: 1500 / 5877, iter_loss: 1.4379, iter_perplexity: 4.4487
+25-08-2022 23:20  - iter: 2000 / 5877, iter_loss: 1.4220, iter_perplexity: 4.4606

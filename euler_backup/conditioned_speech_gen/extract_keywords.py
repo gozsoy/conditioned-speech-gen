@@ -10,15 +10,16 @@ encoder = api.load("glove-wiki-gigaword-300")
 number_of_keywords = 3
 max_ngram_size = 1
 total_shards = 10
+prompt_len = 25  # words
 
 custom_kw_extractor = yake.KeywordExtractor(n=max_ngram_size)
 
 valid_df = pd.read_csv('/cluster/scratch/goezsoy/nlp_lss_datasets/processed_df_valid.csv')
 
 # only extract first 5k validation sentences' keywords because of slow generation
-valid_df = valid_df.iloc[:5000]
+#valid_df = valid_df.iloc[:5000] extract all
 
-with open('valid_df_keywords_5k.txt', 'w') as f:
+with open('valid_df_keywords_20k.txt', 'w') as f:
 
     for _, row in valid_df.iterrows():
 
@@ -29,11 +30,14 @@ with open('valid_df_keywords_5k.txt', 'w') as f:
         filtered_keywords = list(filter(lambda kw: kw in encoder.key_to_index.keys(), keywords))
         selected_keywords = ', '.join(random.sample(filtered_keywords,min(len(filtered_keywords),number_of_keywords)))
 
+        # no prompt
         if text.split()[0] in ['Mr.','Madam']:
-            selected_keywords = text.split(',')[0] + ', ' + selected_keywords + '\n'
+            selected_keywords = text.split(',')[0] + '|| ' + selected_keywords + '\n'
         else:
-            selected_keywords = '<|endoftext|>, ' + selected_keywords + '\n'
-            
+            selected_keywords = '<|endoftext|>' + '|| ' + selected_keywords + '\n'
+        
+        # prompt
+        #selected_keywords = ' '.join(text.split()[:prompt_len]) + '|| ' + selected_keywords + '\n'
 
         f.write(selected_keywords)
 
@@ -42,7 +46,7 @@ with open('valid_df_keywords_5k.txt', 'w') as f:
 
 speech_per_shard = len(valid_df)//total_shards
 
-with open('valid_df_keywords_5k.txt', 'r') as fp:
+with open('valid_df_keywords_20k.txt', 'r') as fp:
     
     speech_counter = 0
     shard_counter = 0

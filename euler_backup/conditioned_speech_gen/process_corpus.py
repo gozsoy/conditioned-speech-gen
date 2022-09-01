@@ -1,6 +1,7 @@
 import re
 import glob
 import pandas as pd
+import numpy as np
 from tqdm import tqdm
 
 # 1- READ RAW CORPUS
@@ -45,6 +46,7 @@ print(f'speech count after step 1: {len(unique_speeches_single_df)}')
 
 # step 2: row[0]!='.' speeches are not speech but text snippets describing the law 
 processed_df = unique_speeches_single_df[unique_speeches_single_df.speech.apply(lambda row: row[0]=='.')]
+
 
 print(f'speech count after step 2: {len(processed_df)}')
 
