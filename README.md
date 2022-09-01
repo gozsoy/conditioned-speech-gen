@@ -2,6 +2,12 @@
 
 We develop a 3-step fully automatized and scalable pipeline for generating high quality synthetic text corpus with semantically conditioned language models. Applying the model on a political speech corpus leaves a performant classifier in high confusion for discriminating real and synthetic texts, proving the ability of our pipeline.
 
+![3-step high quality synthetic text generation pipeline](model_figure.png)
+
++ An example fake generation from political domain:
+
+<p align="justify"> "Mr. President, I speak about the need for hate crimes legislation. On May 1, 2003, Senator Kennedy and I introduced the Local Law Enforcement Enhancement Act, a bill that would add new categories to current hate crimes law, sending a signal that violence of any kind is unacceptable in our society. On September 3, 2001, three men were found guilty of beating and shooting two women in their downtown Atlanta apartment for allegedly being gay and mentally retarded. Crimes motivated by race, gender, religion, sexual orientation, disability or national origin are routinely covered by State and local governments, as are" </p>
+
 ## Reproducing results on ETH Euler cluster
 
 ## Install Miniconda
