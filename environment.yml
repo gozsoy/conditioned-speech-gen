@@ -26,4 +26,4 @@ dependencies:
     - tensorflow-addons==0.16.1
     - transformers==4.18.0
     - datasets==2.0.0
-    - yake=0.4.8
+    - yake==0.4.8
